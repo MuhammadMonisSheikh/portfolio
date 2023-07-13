@@ -169,8 +169,9 @@ section {
 }
 
 .My_pic {
-    margin-left: 6rem;
-    margin-top: -2rem;
+    left: 6rem;
+    top: -2rem;
+    position: relative;
     animation-name: moveInRight;
 animation-duration: 1s;
 animation-timing-function: ease-out;
