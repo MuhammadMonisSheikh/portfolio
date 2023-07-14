@@ -631,6 +631,18 @@ section .services .title3::before {
 #My_Projects .title::after {
     content: "What I made";
 }
+
+
+section .title2{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
 #My_Projects .title::before {
     content: "";
     position: absolute;
@@ -641,6 +653,147 @@ section .services .title3::before {
     background:black;
     transform: translateX(-50%);
 }
+
+
+
+#My_Projects .title2::after {
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    font-size: 16px;
+    color: #2C77DD;
+    padding: 0 5px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+
+#My_Projects .title2::after {
+    content: "I made these projects by using only HTML5";
+}
+#My_Projects .title2::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 30vw;
+    height: 3px;
+    background:black;
+    transform: translateX(-50%);
+}
+
+section .title4 {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#My_Projects .title4::after {
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    font-size: 16px;
+    color: #2C77DD;
+    padding: 0 5px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+
+
+#My_Projects .title4::after {
+    content: "I made these projects by using only HTML5";
+}
+#My_Projects .title4::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 30vw;
+    height: 3px;
+    background:black;
+    transform: translateX(-50%);
+}
+
+
+
+
+
+.serv-content1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.services .serv-content1 .card {
+    width: calc(33% - 20px);
+    background: #232f3e;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.services .serv-content1 .card:hover {
+    background: #235ca4;
+}
+
+
+
+
+.serv-content2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.services .serv-content2 .card {
+    width: calc(33% - 20px);
+    background: #232f3e;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.services .serv-content2 .card:hover {
+    background: #235ca4;
+}
+
+
+
+.serv-content3{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.services .serv-content3 .card {
+    width: calc(33% - 20px);
+    background: #232f3e;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.services .serv-content3 .card:hover {
+    background: #235ca4;
+}
+
+ 
+
 
 .Projert_img1{
     border: none !important;
@@ -664,6 +817,57 @@ section .services .title3::before {
     height: 158px !important;
     width: 222px !important;
 }
+
+
+.Projert_img4{
+    border: none !important;
+    border-radius:0% !important; 
+    height: 158px !important;
+    width: 222px !important;
+}
+
+
+
+.Projert_img5{
+    border: none !important;
+    border-radius:0% !important; 
+    height: 158px !important;
+    width: 222px !important;
+}
+
+
+.Projert_img6{
+    border: none !important;
+    border-radius:0% !important; 
+    height: 158px !important;
+    width: 222px !important;
+}
+
+
+
+.Projert_img7{
+    border: none !important;
+    border-radius:0% !important; 
+    height: 158px !important;
+    width: 222px !important;
+}
+
+
+.Projert_img8{
+    border: none !important;
+    border-radius:0% !important; 
+    height: 158px !important;
+    width: 222px !important;
+}
+
+
+.Projert_img9{
+    border: none !important;
+    border-radius:0% !important; 
+    height: 158px !important;
+    width: 222px !important;
+}
+
 
 .text1{
     font-size: 55px;
@@ -689,6 +893,66 @@ section .services .title3::before {
 	-webkit-text-fill-color: transparent;
     margin-top: 13px;  
 }
+
+
+
+.text4{
+    font-size: 55px;
+    background-image:  linear-gradient(to right bottom, rgb(201, 154, 100),rgb(219, 179, 132));
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    margin-top: 13px;  
+}
+
+
+
+
+.text5{
+    font-size: 55px;
+    background-image:  linear-gradient(to right bottom, rgb(201, 154, 100),rgb(219, 179, 132));
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    margin-top: 13px;  
+}
+
+
+
+.text6{
+    font-size: 55px;
+    background-image:  linear-gradient(to right bottom, rgb(201, 154, 100),rgb(219, 179, 132));
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    margin-top: 13px;  
+}
+
+
+.text7{
+    font-size: 55px;
+    background-image:  linear-gradient(to right bottom, rgb(201, 154, 100),rgb(219, 179, 132));
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    margin-top: 13px;  
+}
+
+
+
+.text8{
+    font-size: 55px;
+    background-image:  linear-gradient(to right bottom, rgb(201, 154, 100),rgb(219, 179, 132));
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    margin-top: 13px;  
+}
+
+
+.text9{
+    font-size: 55px;
+    background-image:  linear-gradient(to right bottom, rgb(201, 154, 100),rgb(219, 179, 132));
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    margin-top: 13px;  
+}
+
 
 .My_Projects .Project_content .Project_card .Project_box{
     height: 202px;
