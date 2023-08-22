@@ -5,158 +5,249 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muhammad Monis Sheikh - web developer , Programmer , Graphic designer</title>
+    <!-- STYLE SHEETS -->
+
     <link rel="stylesheet" href="CSS/Style.css">
     <link rel="stylesheet" href="CSS/StyleMediaquery.css">
+    
+    <!-- LOGO -->
+
     <link rel="shortcut icon" href="img/M logo.png" type="image/x-icon">
+    
+
+    <!-- BOOTSTRAP LINK-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+ 
+    <!-- BOOTSTRAP JS CDN LINK -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+ <!-- AOS ANIMATIONS -->
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ 
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <!-- FONT AWESOME CDN LINK -->
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+
 </head>
 
 <body>
   
-    
-    <header class="navbar">
-        <div class="max-width">
-            <img src="img/M logo.png" class="logo" alt="">
+    <section id="home">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/M logo.png" alt="" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-black" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasbkNavbarLabel">
+                <div class="offcanvas-header">
 
-            <input type="checkbox" class="menu__checkbox" id="menu-toggle">
+                    <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 ">
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-hover active " data-bs-dismiss="offcanvas" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-hover " data-bs-dismiss="offcanvas" href="#about">My Intro</a>
+                        </li>
 
-        <label for="menu-toggle" class="menu__button">
-            <span class="menu__icon">&nbsp;</span>
-        </label>
-        <div class="menu__background">&nbsp;</div>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-hover" data-bs-dismiss="offcanvas" href="#services">Services</a>
+                        </li>
 
-<nav class="menu__nav">
-            <ul class="menu">
-                <li class="menu__item"><a href="#home" class="menu-btn">Home</a></li>
-                <li class="menu__item"><a href="#about" class="menu-btn">My Intro</a></li>
-                <li class="menu__item"><a href="#services" class="menu-btn">Services</a></li>
-                <li class="menu__item"><a href="#skills" class="menu-btn">Skills</a></li>
-                <li class="menu__item"><a href="#teams" class="menu-btn">FeedBack</a></li>
-                <li class="menu__item"><a href="#My_Projects" class="menu-btn">My projects</a></li>
-                <li class="menu__item"><a href="#contact" class="menu-btn">Contact</a></li>
-            </ul>
-        </nav>
- 
-        </div>
-    </header>
-    <!--home Section  start-->
-    <section class="home" id="home">
-        <div class="max-width">
-            <div class="home-content">
-                <div class="text-1">Hi,There I'm</div>
-              <div class="text-2">Muhammad Monis Sheikh</div>
-                <div class="text-3">And I'm a <span class="t1">Web developer </span>, <span class="t2">Programmer</span> And <span class="t3">Graphic designer</span></div>
-                <a class="hire_me" href="#" data-aos="fade-up">Hire me</a>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-hover" data-bs-dismiss="offcanvas" href="#skills">Skills</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-hover " href="#feedBack">FeedBack</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-hover  " href="#"> My projects</a>
+                        </li>
+                       
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-hover" href="#contact">Contact</a>
+                        </li>
+
+                    </ul>
+                     
+                </div>
             </div>
-            <img src="img/monis-pic.png" alt="My pic" class="My_pic">
         </div>
+    </nav>
+    <!--home Section  start-->
+    
+<div class="home">
+
+    
+<div class="container">
+    
+    <div class="row">
+           <div id="content" class="col-lg-6  col-md-6">
+        <div class="animation fs-2 fw-bold">Hi,There I'm</div>
+        <div class="animation fs-1 fw-bold" style="color: rgb(0, 14, 39);">Muhammad Monis Sheikh</div>
+        <div class="animation fs-5 pt-4">And I'm a <span class="fw-bold" style="color: rgb(0, 14, 39);">Web developer </span>, <span class="fw-bold" style="color: rgb(0, 14, 39);">Programmer</span> And <span class="fw-bold" style="color: rgb(0, 14, 39);">Graphic designer</span></div>
+        <a class="hire_me aos-init aos-animate" href="https://m.me/muhammad.monissheikh" data-aos="fade-up">Hire me</a>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+<img src="img/monis-pic.png" class="monis-pic-height" alt="">
+
+
+</div>
+ 
+</div>
+</div>
+
+</div>
+ 
+
+
     </section>
     <!--About Section  start-->
     <section class="about" id="about">
-        <div class="max-width">
-            <h2 class="title">My Intro</h2>
-            <div class="about-content">
-                <div class="column left">
-                    <img src="img/M.png" alt="" data-aos="flip-left">
+       <div class="container pt-5">
+        <h2 class="title">My Intro</h2>
+            <div class="row">
+                <div class="col-lg-5 col-md-5">
+                    <img src="img/M.png" class="M-logo object-fit-cover" alt="" data-aos="flip-left">
                 </div>
-                <div class="column right">
-                    <div class="text" data-aos="fade-down">I'm Monis and I'm a <span class="A1"> Web developer , Programmer and Graphic designer</span></div>
-                    <p data-aos="zoom-in"> Hello! I am a Front end developer based in Faisalabad, Pakistan.I passed matric in 15th October
+                <div class="col-lg-7 col-md-7 pt-4">
+                    <div class="fs-4 fw-bold text-black" data-aos="fade-down">I'm Monis and I'm a <span class="fw-bold" style=" color: #2C77DD;"> Web developer , Programmer </span> and <span class="fw-bold" style=" color: #2C77DD;"> Graphic designer</span></div>
+                    <p data-aos="zoom-in" class="pt-4" style="font-size: 0.9rem;"> Hello! I am a Front end developer based in Faisalabad, Pakistan.I passed matric in 15th October
                         2021 from Sadia School System. I started learning web development in 16th August 2021.Now I have
                         1.5 years of experience in web development.I am very passionate about improving my coding skills
-                        & developing applications & websites & logos.I build WebApps and Websites using <span class="A2">HTML</span> and <span class="A2">CSS</span>.I
-                        build logos using <span class="A2">Ai</span>.I edit photos using <span class="A2">PS</span>. Working for
+                        & developing applications & websites & logos.I build WebApps and Websites using <span class="fw-bold text-uppercase" style=" color: #2C77DD;">html</span> , <span class="fw-bold text-uppercase" style=" color: #2C77DD;">css</span> and <span class="fw-bold text-uppercase" style=" color: #2C77DD;">bootstrap</span>.I
+                        build logos using <span class="fw-bold" style=" color: #2C77DD;">Ai</span>.I edit photos using <span class="fw-bold" style=" color: #2C77DD;">PS</span>. Working for
                         myself to improve my skills. Love to build websites and logos.</p>
-                    <a data-aos="fade-up" href="#">Download CV</a>
+                    <a data-aos="fade-up" class="text-decoration-none" href="documents/Resume Muhammad Monis Sheikh.pdf" download="logo">Download CV</a>
                 </div>
             </div>
-        </div>
+        </div>       
     </section>
    <!--services Section  start-->
     <section class="services" id="services">
-        <div class="max-width">
+        <div class="container pt-5">
             <h2 class="title">My services</h2>
-            <div class="serv-content">
-                <div class="card" data-aos="zoom-in-right">
-                    <div class="box">
-                        <i class=" fas  fa-file-code"></i>
-                        <div class="text">Single page</div>
-                        <p>I can Develop Your Single Page Website,Portfolio  &amp; Software &amp; I can also Make Your Design AweSoME By My Great Skills.
-                        </p>
+          
+
+            <div class="row row-cols-1 row-cols-md-3 g-4 pt-5">
+                <div class="col">
+                  <div class="card-animation card" data-aos="fade-down">
+                    <i class=" fas  fa-file-code"></i>
+                    <div class="card-body">
+                      <h5 class="card-title fs-1 text-light fw-bold text-uppercase">Single page</h5>
+                      <p class="card-text fs-6 text-light ">I can Develop Your Single Page Website,Portfolio  &amp; Software &amp; I can also Make Your Design AweSoME By My Great Skills.</p>
                     </div>
+                  </div>
                 </div>
-                <div class="card" data-aos="zoom-in-up">
-                    <div class="box">
-                        <i class="far fa-file-alt" aria-hidden="true"></i>
-                        <div class="text">Multi Pages</div>
-                        <p>I can Develop Your Multi Pages Website for your company , Online store & Software
-                            & I can also Make Your Design AweSoME By My Great Skills.
-                        </p>
+                <div class="col">
+                  <div class="card-animation-2 card" data-aos="zoom-in">
+                    <i class="far fa-file-alt" aria-hidden="true"></i>
+                    <div class="card-body">
+                      <h5 class="card-title fs-1 fw-bold text-uppercase text-light">Multi Pages</h5>
+                      <p class="card-text fs-6 text-light">I can Develop Your Multi Pages Website for your company , Online store & Software
+                        & I can also Make Your Design AweSoME By My Great Skills.</p>
                     </div>
+                  </div>
                 </div>
-                <div class="card C3" data-aos="zoom-in-left">
-                    <div class="box">
-                        <i class="fas fa-pager" aria-hidden="true"></i>
-                        <div class="text">Responsive designs</div>
-                        <p>I can Develop Your Responsive Websites & I can also Make Your Responsive Design AweSoME By My Great Skills.
-                        </p>
+                <div class="col">
+                  <div class="card-animation-3 card" data-aos="fade-up" >
+                    <i class="fas fa-pager" aria-hidden="true"></i>
+
+                    <div class="card-body">
+                      <h5 class="card-title fs-2 fw-bold text-uppercase text-light">Responsive designs</h5>
+                      <p class="card-text fs-6 text-light">I can Develop Your Responsive Websites & I can also Make Your Responsive Design AweSoME By My Great Skills.</p>
                     </div>
+                  </div>
                 </div>
-            </div>
+               
+              </div>
+
         </div>
         
     </section>
    <!--skills Section  start-->
     <section class="skills" id="skills">
-        <div class="max-width">
+        <div class="container pt-5">
             <h2 class="title">My skills</h2>
-            <div class="skills-content">
-                <div class="column left">
-                    <div class="text" data-aos="fade-down">My creative skills &amp; experiences.</div>
-                    <p data-aos="zoom-in">Now Ia am learing js By My Awesome Mentoor SO Now   I am Professtional In <span class="S1">HTML (
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="fs-1 fw-bold text-black" data-aos="fade-down">My creative skills &amp; experiences.</div>
+                    <p data-aos="zoom-in" class="text-black fs-5 fw-bolder pt-4">Now Ia am learing js By My Awesome Mentoor SO Now   I am Professtional In <span class="fw-bold fst-italic text-light" style="background-color: #2C77DD;">HTML (
                         Hypertext Markup Language)</span>,
-                        <span class="S2">CSS(Cascading Style Sheets)</span> , <span class="S3"> PS(Photoshop) </span> ,<span class="S4"> Ai(Adobe illustrator)</span> but I Am Still Working And MAking projects For My Experiences.
+                        <span class="fw-bold fst-italic text-light" style="background-color: #2C77DD;">CSS(Cascading Style Sheets)</span> ,   <span class="fw-bold fst-italic text-light" style="background-color: #2C77DD;">BOOTSTRAP</span> , <span class="fw-bold fst-italic text-light" style="background-color: #2C77DD;"> PS(Photoshop) </span> ,<span class="fw-bold fst-italic text-light" style="background-color: #2C77DD;"> Ai(Adobe illustrator)</span> but I Am Still Working And MAking projects For My Experiences.
                         In web developing and Graphic designing I am Working A lot  And I Am Start It In te Age OF 17 Now I am Working On my Experiences S0...                   </p>
-                    <a href="#" data-aos="fade-up">Read more</a>
+                    <a href="#" data-aos="fade-up" class="text-decoration-none">Read more</a>
                 </div>
-                <div class="column right">
+
+                <div class="col-lg-1"></div>
+
+                <div class="col-lg-5 col-md-5 pt-2">
                     <div class="bars">
                         <div class="info" data-aos="fade-down">
-                            <span>HTML</span>
-                            <span>90%</span>
+                            <span class="text-black fw-bold fs-4">HTML</span>
+       
                         </div>
-                        <div class="line html" data-aos="fade-up"></div>
+                        <div class="progress" data-aos="fade-up" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 95%">95%</div>
+                          </div>
                     </div>
 
                     <div class="bars">
                         <div class="info" data-aos="fade-up">
-                            <span>CSS</span>
-                            <span>80%</span>
+                            <span class="text-black fw-bold fs-4">CSS</span>
                         </div>
-                        <div class="line js" data-aos="fade-down"></div>
-                    </div>
+                        <div class="progress" data-aos="fade-down" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 80%;">80%</div>
+                          </div>
+                         </div>
                     
                     <div class="bars">
                         <div class="info" data-aos="fade-up">
-                            <span>Ai</span>
-                            <span>60%</span>
-                        </div>
-                        <div class="line css" data-aos="fade-down"></div>
+                            <span class="text-black fw-bold fs-4">BOOTSTRAP</span> 
+                        </div> 
+                        <div class="progress" data-aos="fade-down" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 75%">75%</div>
+                          </div>
+                    </div>
+                    
+
+                    <div class="bars">
+                        <div class="info" data-aos="fade-up">
+                            <span class="text-black fw-bold fs-4">Ai</span> 
+                        </div>       
+                               <div class="progress" data-aos="fade-up" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 60%">60%</div>
+                          </div>
                     </div>
                   
                     <div class="bars">
                         <div class="info" data-aos="fade-up">
-                            <span>PS</span>
-                            <span>70%</span>
-                        </div>
-                        <div class="line mysql" data-aos="fade-right"></div>
+                            <span class="text-black fw-bold fs-4">PS</span> 
+                        </div>   
+                                   <div class="progress" data-aos="fade-down" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 70%">70%</div>
+                          </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-   <!--teams Section  start-->
+ <!--teams Section  start
         <section class="services" id="teams">
         <div class="max-width">
             <h2 class="title3">FeedBack</h2>
@@ -189,7 +280,7 @@
         </div>
         
     </section>
-     <!--teams Section  start-->
+     teams Section  start
      <section class="services My_Projects" id="My_Projects">
         <div class="max-width projects">
             <h2 class="title">My Projects</h2>
@@ -300,8 +391,8 @@
         
     </div>
         
-    </section>
-    <!--contact Section  start-->
+    </section>-->
+    <!--contact Section  start
     <section class="contact" id="contact">
         <div class="max-width">
             <h2 class="title">Contact me</h2>
@@ -356,17 +447,23 @@
                     </form>
                 </div>
             </div>
+ 
         </div>
     </section>
-   <!--footer Section  start-->
+    footer Section  start
+   
     <footer>
         <span>Created By <a href="#">Monis</a> | <span class="far fa-copyright" aria-hidden="true"></span> 2023 All rights reserved.</span>
         <a href="#home" class="scroll-up-btn show">
             <i class="fas fa-angle-up" aria-hidden="true" ></i>
         </a>
+        
+    -->
+
+
     </footer>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
     <script>
         AOS.init();
       </script>
