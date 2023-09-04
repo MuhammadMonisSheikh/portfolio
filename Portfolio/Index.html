@@ -9,23 +9,26 @@
 
     <link rel="stylesheet" href="CSS/Style.css">
     <link rel="stylesheet" href="CSS/StyleMediaquery.css">
-    
+
     <!-- LOGO -->
 
     <link rel="shortcut icon" href="img/M logo.png" type="image/x-icon">
-    
+
 
     <!-- BOOTSTRAP LINK-->
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
- 
-    <!-- BOOTSTRAP JS CDN LINK -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
- <!-- AOS ANIMATIONS -->
- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
- 
- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- BOOTSTRAP JS CDN LINK -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <!-- AOS ANIMATIONS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
     <!-- FONT AWESOME CDN LINK -->
@@ -37,161 +40,193 @@
 </head>
 
 <body>
-  
+
     <section id="home">
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="img/M logo.png" alt="" class="logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end text-bg-black" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasbkNavbarLabel">
-                <div class="offcanvas-header">
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/M logo.png" alt="" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-black" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasbkNavbarLabel">
+                    <div class="offcanvas-header">
 
-                    <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 ">
-                        <li class="nav-item">
-                            <a class="nav-link nav-link-hover active " data-bs-dismiss="offcanvas" aria-current="page" href="#home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link nav-link-hover " data-bs-dismiss="offcanvas" href="#about">My Intro</a>
-                        </li>
+                        <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 ">
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-hover active " data-bs-dismiss="offcanvas"
+                                    aria-current="page" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item" data-bs-dismiss="offcanvas">
+                                <a class="nav-link nav-link-hover " href="#about">My Intro</a>
+                            </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link nav-link-hover" data-bs-dismiss="offcanvas" href="#services">Services</a>
-                        </li>
+                            <li class="nav-item" data-bs-dismiss="offcanvas">
+                                <a class="nav-link nav-link-hover" href="#services">Services</a>
+                            </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link nav-link-hover" data-bs-dismiss="offcanvas" href="#skills">Skills</a>
-                        </li>
+                            <li class="nav-item" data-bs-dismiss="offcanvas">
+                                <a class="nav-link nav-link-hover" href="#skills">Skills</a>
+                            </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link nav-link-hover " href="#feedBack">FeedBack</a>
-                        </li>
+                            <li class="nav-item" data-bs-dismiss="offcanvas">
+                                <a class="nav-link nav-link-hover" href="#feedback">FeedBack</a>
+                            </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link nav-link-hover  " href="#"> My projects</a>
-                        </li>
-                       
-                        <li class="nav-item">
-                            <a class="nav-link nav-link-hover" href="#contact">Contact</a>
-                        </li>
+                            <li class="nav-item" data-bs-dismiss="offcanvas">
+                                <a class="nav-link nav-link-hover" href="#My_Projects"> My projects</a>
+                            </li>
 
-                    </ul>
-                     
+                            <li class="nav-item" data-bs-dismiss="offcanvas">
+                                <a class="nav-link nav-link-hover" href="#contact">Contact</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
                 </div>
             </div>
+        </nav>
+        <!--home Section  start-->
+
+        <div class="home">
+
+
+            <div class="container">
+
+                <div class="row">
+                    <div id="content" class="col-lg-6  col-md-6">
+                        <div class="animation fs-2 fw-bold">Hi,There I'm</div>
+                        <div class="animation fs-1 fw-bold" style="color: rgb(0, 14, 39);">Muhammad Monis Sheikh</div>
+                        <div class="animation fs-5 pt-4">And I'm a <span class="fw-bold"
+                                style="color: rgb(0, 14, 39);">Web developer </span>, <span class="fw-bold"
+                                style="color: rgb(0, 14, 39);">Programmer</span> And <span class="fw-bold"
+                                style="color: rgb(0, 14, 39);">Graphic designer</span></div>
+                        <a class="hire_me aos-init aos-animate" href="https://m.me/muhammad.monissheikh"
+                            data-aos="fade-up">Hire me</a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <img src="img/monis-pic.png" class="monis-pic-height" alt="">
+
+
+                    </div>
+
+                </div>
+            </div>
+
         </div>
-    </nav>
-    <!--home Section  start-->
-    
-<div class="home">
 
-    
-<div class="container">
-    
-    <div class="row">
-           <div id="content" class="col-lg-6  col-md-6">
-        <div class="animation fs-2 fw-bold">Hi,There I'm</div>
-        <div class="animation fs-1 fw-bold" style="color: rgb(0, 14, 39);">Muhammad Monis Sheikh</div>
-        <div class="animation fs-5 pt-4">And I'm a <span class="fw-bold" style="color: rgb(0, 14, 39);">Web developer </span>, <span class="fw-bold" style="color: rgb(0, 14, 39);">Programmer</span> And <span class="fw-bold" style="color: rgb(0, 14, 39);">Graphic designer</span></div>
-        <a class="hire_me aos-init aos-animate" href="https://m.me/muhammad.monissheikh" data-aos="fade-up">Hire me</a>
-    </div>
-
-    <div class="col-lg-4 col-md-6">
-<img src="img/monis-pic.png" class="monis-pic-height" alt="">
-
-
-</div>
- 
-</div>
-</div>
-
-</div>
- 
 
 
     </section>
-    <!--About Section  start-->
+    <!--ABOUT SECTION-->
     <section class="about" id="about">
-       <div class="container pt-5">
-        <h2 class="title">My Intro</h2>
+        <div class="container pt-5">
+            <h2 class="title">My Intro</h2>
             <div class="row">
                 <div class="col-lg-5 col-md-5">
                     <img src="img/M.png" class="M-logo object-fit-cover" alt="" data-aos="flip-left">
                 </div>
                 <div class="col-lg-7 col-md-7 pt-4">
-                    <div class="fs-4 fw-bold text-black" data-aos="fade-down">I'm Monis and I'm a <span class="fw-bold" style=" color: #2C77DD;"> Web developer , Programmer </span> and <span class="fw-bold" style=" color: #2C77DD;"> Graphic designer</span></div>
-                    <p data-aos="zoom-in" class="pt-4" style="font-size: 0.9rem;"> Hello! I am a Front end developer based in Faisalabad, Pakistan.I passed matric in 15th October
+                    <div class="fs-4 fw-bold text-black" data-aos="fade-down">I'm Monis and I'm a <span class="fw-bold"
+                            style=" color: #2C77DD;"> Web developer , Programmer </span> and <span class="fw-bold"
+                            style=" color: #2C77DD;"> Graphic designer</span></div>
+                    <p data-aos="zoom-in" class="pt-4" style="font-size: 0.9rem;"> Hello! I am a Front end developer
+                        based in Faisalabad, Pakistan.I passed matric in 15th October
                         2021 from Sadia School System. I started learning web development in 16th August 2021.Now I have
-                        1.5 years of experience in web development.I am very passionate about improving my coding skills
-                        & developing applications & websites & logos.I build WebApps and Websites using <span class="fw-bold text-uppercase" style=" color: #2C77DD;">html</span> , <span class="fw-bold text-uppercase" style=" color: #2C77DD;">css</span> and <span class="fw-bold text-uppercase" style=" color: #2C77DD;">bootstrap</span>.I
-                        build logos using <span class="fw-bold" style=" color: #2C77DD;">Ai</span>.I edit photos using <span class="fw-bold" style=" color: #2C77DD;">PS</span>. Working for
-                        myself to improve my skills. Love to build websites and logos.</p>
-                    <a data-aos="fade-up" class="text-decoration-none" href="documents/Resume Muhammad Monis Sheikh.pdf" download="logo">Download CV</a>
+                        2 years of experience in web development.I am very passionate about improving my coding skills
+                        & developing applications & websites & logos.I build WebApps and Websites using <span
+                            class="fw-bold text-uppercase" style=" color: #2C77DD;">html</span> , <span
+                            class="fw-bold text-uppercase" style=" color: #2C77DD;">css</span> and <span
+                            class="fw-bold text-uppercase" style=" color: #2C77DD;">bootstrap</span>.I
+                        build logos using <span class="fw-bold" style=" color: #2C77DD;">Ai</span>.I edit photos using
+                        <span class="fw-bold" style=" color: #2C77DD;">PS</span>. Working for
+                        myself to improve my skills. Love to build websites and logos.
+                    </p>
+                    <a data-aos="fade-up" class="text-decoration-none" href="documents/Resume Muhammad Monis Sheikh.pdf"
+                        download="logo">Download CV</a>
                 </div>
             </div>
-        </div>       
+        </div>
     </section>
-   <!--services Section  start-->
+    <!--SERVICES SECTION-->
     <section class="services" id="services">
         <div class="container pt-5">
             <h2 class="title">My services</h2>
-          
+
 
             <div class="row row-cols-1 row-cols-md-3 g-4 pt-5">
                 <div class="col">
-                  <div class="card-animation card" data-aos="fade-down">
-                    <i class=" fas  fa-file-code"></i>
-                    <div class="card-body">
-                      <h5 class="card-title fs-1 text-light fw-bold text-uppercase">Single page</h5>
-                      <p class="card-text fs-6 text-light ">I can Develop Your Single Page Website,Portfolio  &amp; Software &amp; I can also Make Your Design AweSoME By My Great Skills.</p>
+                    <div class="card-animation card" data-aos="fade-down">
+                        <i class=" fas  fa-file-code"></i>
+                        <div class="card-body">
+                            <h5 class="card-title fs-1 text-light fw-bold text-uppercase">Single page</h5>
+                            <p class="card-text fs-6 text-light ">I can Develop Your Single Page Website,Portfolio &amp;
+                                Software &amp; I can also Make Your Design AweSoME By My Great Skills.</p>
+                        </div>
                     </div>
-                  </div>
                 </div>
                 <div class="col">
-                  <div class="card-animation-2 card" data-aos="zoom-in">
-                    <i class="far fa-file-alt" aria-hidden="true"></i>
-                    <div class="card-body">
-                      <h5 class="card-title fs-1 fw-bold text-uppercase text-light">Multi Pages</h5>
-                      <p class="card-text fs-6 text-light">I can Develop Your Multi Pages Website for your company , Online store & Software
-                        & I can also Make Your Design AweSoME By My Great Skills.</p>
+                    <div class="card-animation-2 card" data-aos="zoom-in">
+                        <i class="far fa-file-alt" aria-hidden="true"></i>
+                        <div class="card-body">
+                            <h5 class="card-title fs-1 fw-bold text-uppercase text-light">Multi Pages</h5>
+                            <p class="card-text fs-6 text-light">I can Develop Your Multi Pages Website for your company
+                                , Online store & Software
+                                & I can also Make Your Design AweSoME By My Great Skills.</p>
+                        </div>
                     </div>
-                  </div>
                 </div>
                 <div class="col">
-                  <div class="card-animation-3 card" data-aos="fade-up" >
-                    <i class="fas fa-pager" aria-hidden="true"></i>
+                    <div class="card-animation-3 card" data-aos="fade-up">
+                        <i class="fas fa-pager" aria-hidden="true"></i>
 
-                    <div class="card-body">
-                      <h5 class="card-title fs-2 fw-bold text-uppercase text-light">Responsive designs</h5>
-                      <p class="card-text fs-6 text-light">I can Develop Your Responsive Websites & I can also Make Your Responsive Design AweSoME By My Great Skills.</p>
+                        <div class="card-body">
+                            <h5 class="card-title fs-2 fw-bold text-uppercase text-light">Responsive designs</h5>
+                            <p class="card-text fs-6 text-light">I can Develop Your Responsive Websites & I can also
+                                Make Your Responsive Design AweSoME By My Great Skills.</p>
+                        </div>
                     </div>
-                  </div>
                 </div>
-               
-              </div>
+
+            </div>
 
         </div>
-        
+
     </section>
-   <!--skills Section  start-->
+    <!--SKILLS SECTION-->
     <section class="skills" id="skills">
         <div class="container pt-5">
             <h2 class="title">My skills</h2>
             <div class="row">
                 <div class="col-lg-6 col-md-6">
-                    <div class="fs-1 fw-bold text-black" data-aos="fade-down">My creative skills &amp; experiences.</div>
-                    <p data-aos="fade-up" class="text-black fs-5 fw-bolder mt-5 px-4 py-3" style="background-color: rgba(44, 119, 221, .6);">Now Ia am learning js By My Awesome Mentoor SO Now   I am Professtional In <span class="fw-bold fst-italic text-light" style="background-color: #2C77DD;">HTML (
-                        Hypertext Markup Language)</span>,
-                        <span class="fw-bold fst-italic text-light" style="background-color: #2C77DD;">CSS(Cascading Style Sheets)</span> ,   <span class="fw-bold fst-italic text-light" style="background-color: #2C77DD;">BOOTSTRAP</span> , <span class="fw-bold fst-italic text-light" style="background-color: #2C77DD;"> PS(Photoshop) </span> ,<span class="fw-bold fst-italic text-light" style="background-color: #2C77DD;"> Ai(Adobe illustrator)</span> but I Am Still Working And MAking projects For My Experiences.
-                        In web developing and Graphic designing I am Working A lot  And I Am Start It In the Age OF 17 Now I am Working On my Experiences</p>
-                    
+                    <div class="fs-1 fw-bold text-black" data-aos="fade-down">My creative skills &amp; experiences.
+                    </div>
+                    <p data-aos="fade-up" class="text-black fs-5 fw-bolder mt-5 px-4 py-3"
+                        style="background-color: rgba(44, 119, 221, .6);">Now Ia am learning js By My Awesome Mentoor SO
+                        Now I am Professtional In <span class="fw-bold fst-italic text-light"
+                            style="background-color: #2C77DD;">HTML (
+                            Hypertext Markup Language)</span>,
+                        <span class="fw-bold fst-italic text-light" style="background-color: #2C77DD;">CSS(Cascading
+                            Style Sheets)</span> , <span class="fw-bold fst-italic text-light"
+                            style="background-color: #2C77DD;">BOOTSTRAP</span> , <span
+                            class="fw-bold fst-italic text-light" style="background-color: #2C77DD;"> PS(Photoshop)
+                        </span> ,<span class="fw-bold fst-italic text-light" style="background-color: #2C77DD;">
+                            Ai(Adobe illustrator)</span> but I Am Still Working And MAking projects For My Experiences.
+                        In web developing and Graphic designing I am Working A lot And I Am Start It In the Age OF 17
+                        Now I am Working On my Experiences
+                    </p>
+
                 </div>
 
                 <div class="col-lg-1"></div>
@@ -200,48 +235,63 @@
                     <div class="bars pt-2">
                         <div class="info" data-aos="fade-down">
                             <span class="text-black fw-bold fs-4">HTML</span>
-       
+
                         </div>
-                        <div class="progress bg-light" data-aos="fade-up" role="progressbar" aria-label="Animated striped example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 95%">95%</div>
-                          </div>
+                        <div class="progress bg-light" data-aos="fade-up" role="progressbar"
+                            aria-label="Animated striped example" aria-valuenow="25" aria-valuemin="0"
+                            aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 95%">95%
+                            </div>
+                        </div>
                     </div>
 
                     <div class="bars pt-2">
                         <div class="info" data-aos="fade-up">
                             <span class="text-black fw-bold fs-4">CSS</span>
                         </div>
-                        <div class="progress  bg-light mt-2" data-aos="fade-down" role="progressbar"  aria-label="Animated striped example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80%;">80%</div>
-                          </div>
-                         </div>
-                    
-                    <div class="bars pt-2">
-                        <div class="info" data-aos="fade-up">
-                            <span class="text-black fw-bold fs-4">BOOTSTRAP</span> 
-                        </div> 
-                        <div class="progress bg-light mt-2" data-aos="fade-down" role="progressbar"  aria-label="Animated striped example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%">75%</div>
-                          </div>
+                        <div class="progress  bg-light mt-2" data-aos="fade-down" role="progressbar"
+                            aria-label="Animated striped example" aria-valuenow="25" aria-valuemin="0"
+                            aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80%;">80%
+                            </div>
+                        </div>
                     </div>
-                    
 
                     <div class="bars pt-2">
                         <div class="info" data-aos="fade-up">
-                            <span class="text-black fw-bold fs-4">Ai</span> 
-                        </div>       
-                               <div class="progress bg-light mt-2" data-aos="fade-up" role="progressbar"  aria-label="Animated striped example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 60%">60%</div>
-                          </div>
+                            <span class="text-black fw-bold fs-4">BOOTSTRAP</span>
+                        </div>
+                        <div class="progress bg-light mt-2" data-aos="fade-down" role="progressbar"
+                            aria-label="Animated striped example" aria-valuenow="25" aria-valuemin="0"
+                            aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%">75%
+                            </div>
+                        </div>
                     </div>
-                  
+
+
                     <div class="bars pt-2">
                         <div class="info" data-aos="fade-up">
-                            <span class="text-black fw-bold fs-4">PS</span> 
-                        </div>   
-                                   <div class="progress bg-light mt-2" data-aos="fade-down" role="progressbar"  aria-label="Animated striped example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 70%">70%</div>
-                          </div>
+                            <span class="text-black fw-bold fs-4">Ai</span>
+                        </div>
+                        <div class="progress bg-light mt-2" data-aos="fade-up" role="progressbar"
+                            aria-label="Animated striped example" aria-valuenow="25" aria-valuemin="0"
+                            aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 60%">60%
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bars pt-2">
+                        <div class="info" data-aos="fade-up">
+                            <span class="text-black fw-bold fs-4">PS</span>
+                        </div>
+                        <div class="progress bg-light mt-2" data-aos="fade-down" role="progressbar"
+                            aria-label="Animated striped example" aria-valuenow="25" aria-valuemin="0"
+                            aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 70%">70%
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -250,167 +300,689 @@
     <!--    SKILLS SLIDE -->
     <section id="skill_slides">
 
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3500" data-bs-pause="hover">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3500"
+            data-bs-pause="hover">
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="img/HTML_IMG.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/css_img.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/bootstrap_img.jpg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-          </div>
-
-    </section>
-    <!-- SKILLS SLIDE BARS -->
- <!--teams Section  start
-        <section class="services" id="teams">
-        <div class="max-width">
-            <h2 class="title3">FeedBack</h2>
-            <div class="serv-content">
-                <div class="card" data-aos="fade-down`">
-                    <div class="box">
-                        <img src="img/feedback1.jfif" alt="">
-                        <div class="text">Hebrew jams</div>
-                        <p>Monis is Very Awesome in Web developing.
-                        </p>
-                    </div>
+                <div class="carousel-item active">
+                    <img src="img/HTML_IMG.jpg" class="d-block w-100" alt="...">
                 </div>
-                <div class="card" data-aos="zoom-in">
-                    <div class="box">
-                        <img src="img/feedback2.jfif" alt="">
-                        <div class="text">Jack Irish</div>
-                        <p>Monis is very Awesome in Photo and video Editing.
-                        </p>
-                    </div>
+                <div class="carousel-item">
+                    <img src="img/css_img.jpg" class="d-block w-100" alt="...">
                 </div>
-                <div class="card" data-aos="fade-up">
-                    <div class="box">
-                        <img src="img/feedback3.jfif" alt="">
-                        <div class="text">Scandinavian</div>
-                        <p>He is very punctual No complans Very Great !!.
-                        </p>
-                    </div>
+                <div class="carousel-item">
+                    <img src="img/bootstrap_img.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
         </div>
-        
+
     </section>
-     teams Section  start
-     <section class="services My_Projects" id="My_Projects">
-        <div class="max-width projects">
+    <!--FEEDBACK SECTION-->
+    <section class="feedback" id="feedback">
+        <div class="pt-5">
+            <h2 class="title">FeedBack</h2>
+            <div id="carouselExampleIndicators" class="carousel slide pt-5" data-bs-ride="carousel">
+
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card-wrapper container-sm d-flex  justify-content-around">
+                            <div class="card card-animation" style="width: 18rem;">
+                                <img src="img/feedback1.jfif" class="card-img-top" alt="...">
+                                <div class="card-body text-light">
+                                    <h2 class="card-title fw-bold">Hebrew jams</h2>
+                                    <p class="fs-5">"Monis is Very Awesome in Web developing.""
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card card-animation-2" style="width: 18rem;">
+                                <img src="img/feedback2.jfif" class="card-img-top" alt="...">
+                                <div class="card-body text-light">
+                                    <h2 class="card-title fw-bold">Jack Irish</h2>
+                                    <p class="fs-5">"Monis is very Awesome in Photo and video Editing."
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card card-animation-3" style="width: 18rem;">
+                                <img src="img/feedback3.jfif" class="card-img-top" alt="...">
+                                <div class="card-body text-light">
+                                    <h2 class="card-title fw-bold">Scandinavian</h2>
+                                    <p class="fs-5">"He is very punctual No complans Very Great !!."
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+
+                        <div class="card-wrapper container-sm d-flex  justify-content-around">
+                            <div class="card card-animation" style="width: 18rem;">
+                                <img src="img/feedback_4.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body text-light">
+                                    <h2 class="card-title fw-bold">Mostafa Sannad</h2>
+                                    <p class="fs-5">"Great Work"
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card card-animation-2" style="width: 18rem;">
+                                <img src="img/feedback_5.jpg" class="card-img-top" alt="...">
+                                <div class="card-body text-light">
+                                    <h2 class="card-title fw-bold">Prayoon Sajeev</h2>
+                                    <p class="fs-5">"Great work by Monis!"
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card card-animation-3" style="width: 18rem;">
+                                <img src="img/feedback_6.jpg" class="card-img-top" alt="...">
+                                <div class="card-body text-light">
+                                    <h2 class="card-title fw-bold">James David</h2>
+                                    <p class="fs-5">"Great best for web development"
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+
+                        <div class="card-wrapper container-sm d-flex  justify-content-around">
+                            <div class="card card-animation" style="width: 18rem;">
+                                <img src="img/feedback_7.jpg" class="card-img-top" alt="...">
+                                <div class="card-body text-light">
+                                    <h2 class="card-title fw-bold">Logan William</h2>
+                                    <p class="fs-5">"Ismail is prompt and good at his job"
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card card-animation-2" style="width: 18rem;">
+                                <img src="img/feedback_8.jpg" class="card-img-top" alt="...">
+                                <div class="card-body text-light">
+                                    <h2 class="card-title fw-bold">Richard Justin</h2>
+                                    <p class="fs-5">"Great service and great work"
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card card-animation-3" style="width: 18rem;">
+                                <img src="img/feedback_9.jpg" class="card-img-top" alt="...">
+                                <div class="card-body text-light">
+                                    <h2 class="card-title fw-bold">Donald Russell</h2>
+                                    <p class="fs-5">"nice work short time delivery"
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button> -->
+                </div>
+
+                <div class="carousel-indicators pt-5 top-100">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+    <!--  MY PROJECTS -->
+    <section class="My_Projects" id="My_Projects">
+
+        <div class="container pt-5">
+
             <h2 class="title">My Projects</h2>
 
-                    <h2 class="title5"></h2>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide  pt-5" data-bs-ride="carousel"
+                data-bs-pause="hover">
 
 
-            <h2 class="title2">None Responsive projects</h2>
-           
-                          <div class="serv-content1 Project_content">
-                <div class="card Project_card" data-aos="flip-right">
-                    <div class="box Project_box">
-                        <a href="https://natours-monis.netlify.app/"><img class="Projert_img1" src="img/cv1-logo.png" alt=""></a>
-                        <div class="text1">CV1</div>
-                    </div>
-                </div>
-                <div class="card Project_card"  data-aos="flip-up">
-                    <div class="box Project_box">
-                             <a href="https://trillo-monis.netlify.app/"><img class="Projert_img2" src="img/cv2-logo.png" alt=""></a>
-                        <div class="text2">CV2</div>
-                       
-                    </div>
-                </div>
-             
-                </div>
-                    <div class="title4"></div>
+                <div class="carousel-inner">
 
-            <div class="serv-content2 Project_content">
-                <div class="card Project_card" data-aos="flip-right">
-                    <div class="box Project_box">
-                        <a href="https://natours-monis.netlify.app/"><img class="Projert_img3" src="img/addidas.png" alt=""></a>
-                        <div class="text3">Adidas</div>
-                    </div>
-                </div>
-                <div class="card Project_card"  data-aos="flip-up">
-                    <div class="box Project_box">
-                             <a href="https://trillo-monis.netlify.app/"><img class="Projert_img4" src="img/logo.png" alt=""></a>
-                        <div class="text4">Monis-Online-Store</div>
-                       
-                    </div>
-                </div>
-             
-                </div>
-                <h2 class="title6">Fully Responsive project</h2>
-                <div class="serv-content3 Project_content">
-                    <div class="card Project_card" data-aos="flip-right">
-                        <div class="box Project_box">
-                            <a href="https://natours-monis.netlify.app/"><img class="Projert_img5" src="img/Natours.png" alt=""></a>
-                            <div class="text5">Natours</div>
+                    <!-- WEBSITES -->
+
+                    <div class="carousel-item active">
+                        <div class="title2 position-relative">
+                            <h2 class="text-center fw-bold fs-1 fst-italic" data-aos="zoom-in">Websites <i
+                                    class="fas fa-arrow-right"></i></h2>
                         </div>
                     </div>
-                    <div class="card Project_card"  data-aos="flip-up">
-                        <div class="box Project_box">
-                                 <a href="https://trillo-monis.netlify.app/"><img class="Projert_img6" src="img/Trillo.png" alt=""></a>
-                            <div class="text6">Trillo</div>
-                           
+
+
+                    <div class="carousel-item" style="
+                height: 63.3%;">
+                        <div class="container">
+                            <h2 class="title3">None Responsive projects</h2>
+
+                            <div class="row row-cols-1 row-cols-md-3 g-4 pt-5">
+                                <div class="col">
+                                    <div class="card-animation card aos-init aos-animate" style="width: 18rem;"
+                                        data-aos="fade-down">
+                                        <img class="Projert_img1" src="img/cv1-logo.png" alt="">
+                                        <div class="card-body">
+                                            <h3 class="card-title fs-1 text-light fw-bold text-uppercase">CV1</h3>
+                                            <!-- Button trigger modal -->
+                                            <button type="button"
+                                                class="btn btn-outline-warning mt-2 text-white fw-bold"
+                                                data-bs-toggle="modal" data-bs-target="#cv1">
+                                                VIEW MORE
+                                            </button>
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="w-25"></div>
+
+                                <div class="col">
+                                    <div class="card-animation-2 card aos-init aos-animate" style="width: 18rem;"
+                                        data-aos="zoom-in">
+                                        <img class="Projert_img2" src="img/cv2-logo.png" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title fs-1 fw-bold text-uppercase text-light">CV2</h5>
+                                            <button type="button"
+                                                class="btn btn-outline-primary mt-2 text-white fw-bold"
+                                                data-bs-toggle="modal" data-bs-target="#cv2">
+                                                VIEW MORE
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
                         </div>
                     </div>
-                    <div class="card Project_card" data-aos="flip-left">
-                        <div class="box Project_box">
-                            <a href="https://nexter-your-home-with-full-freedom.netlify.app/"><img class="Projert_img7" src="img/nexter.png" alt=""></a>
-                            <div class="text7">Nexter</div>
+
+                    <div class="carousel-item" style="
+                height: 63.3%;">
+
+                        <div class="container">
+                            <h2 class="title4">None Responsive projects</h2>
+
+                            <div class="row row-cols-1 row-cols-md-3 g-4 pt-5">
+                                <div class="col">
+                                    <div class="card-animation card aos-init aos-animate" style="width: 18rem;"
+                                        data-aos="fade-down">
+                                        <img class="Projert_img3" src="img/addidas.png" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title fs-1 text-light fw-bold text-uppercase">Adidas</h5>
+                                            <button type="button" class="btn btn-outline-light mt-2 fw-bold"
+                                                data-bs-toggle="modal" data-bs-target="#adidas">
+                                                VIEW MORE
+                                            </button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="w-25"></div>
+                                <div class="col">
+                                    <div class="card-animation-4 card aos-init aos-animate" style="width: 18rem;"
+                                        data-aos="zoom-in">
+                                        <img class="Projert_img4" src="img/logo.png" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title fs-2 fw-bold text-uppercase text-light">
+                                                Monis Online Store</h5>
+                                            <button type="button"
+                                                class="btn btn-outline-warning mt-2 text-white fw-bold"
+                                                data-bs-toggle="modal" data-bs-target="#monis-online-store">
+                                                VIEW MORE
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" style="
+                height: 63.3%;">
+                        <div class="container">
+
+                            <h2 class="title5">Fully Responsive project</h2>
+
+                            <div class="row row-cols-1 row-cols-md-3 g-4 pt-5">
+                                <div class="col">
+                                    <div class="card-animation card aos-init aos-animate"
+                                        style="width: 18rem; height: 94%;" data-aos="fade-down">
+                                        <img class="Projert_img5" src="img/Natours.png" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title fs-1 text-light fw-bold text-uppercase">Natours</h5>
+                                            <button type="button"
+                                            class="btn btn-outline-success mt-2 text-white fw-bold"
+                                            data-bs-toggle="modal" data-bs-target="#natours">
+                                            VIEW MORE
+                                        </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="col">
+                                    <div class="card-animation-4 card aos-init aos-animate" style="width: 18rem;"
+                                        data-aos="zoom-in">
+                                        <img class="Projert_img6" src="img/Trillo.png" alt="">
+                                        <div class="card-body pt-5">
+                                            <h5 class="card-title fs-1 fw-bold text-uppercase text-light">Trillo</h5>
+                                            <button class="btn btn-outline-danger text-white fw-bold mt-2" tabindex="0"
+                                                data-toggle="popover" data-trigger="focus"
+                                                data-popover-content="#a2">VIEW MORE</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="card-animation-4 card aos-init aos-animate" style="width: 18rem;"
+                                        data-aos="zoom-in">
+                                        <img class="Projert_img7" src="img/nexter.png" alt="">
+                                        <div class="card-body pt-4">
+                                            <h5 class="card-title fs-1 fw-bold text-uppercase text-light">Nexter</h5>
+                                            <button class="btn btn-outline-warning text-white fw-bold mt-2" tabindex="0"
+                                                data-toggle="popover" data-trigger="focus"
+                                                data-popover-content="#a2">VIEW MORE</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" style="
+                height: 63.3%;">
+                        <div class="container">
+
+                            <h2 class="title5">Fully Responsive project</h2>
+
+                            <div class="row row-cols-1 row-cols-md-3 g-4 pt-5">
+                                <div class="col">
+                                    <div class="card-animation card aos-init aos-animate"
+                                        style="width: 18rem; height: 94%;" data-aos="fade-down">
+                                        <img class="Projert_img8" src="img/Digital_Emporium_logo.png" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title fs-1 text-light fw-bold text-uppercase">Digital
+                                                Emporim</h5>
+                                            <button class="btn btn-outline-danger text-white fw-bold mt-2" tabindex="0"
+                                                data-toggle="popover" data-trigger="focus"
+                                                data-popover-content="#a2">VIEW MORE</button>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="w-25"></div>
+
+                                <div class="col">
+                                    <div class="card-animation-4 card aos-init aos-animate" style="width: 18rem;"
+                                        data-aos="zoom-in">
+                                        <img class="Projert_img9" src="img/Facebookicon.png" alt="">
+                                        <div class="card-body pt-3">
+                                            <h5 class="card-title fs-1 fw-bold text-uppercase text-light">Facebook clone
+                                            </h5>
+                                            <button class="btn btn-outline-info text-white fw-bold mt-2" tabindex="0"
+                                                data-toggle="popover" data-trigger="focus"
+                                                data-popover-content="#a2">VIEW MORE</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" style="
+                height: 63.3%;">
+                        <div class="container">
+
+                            <h2 class="title6">Fully Responsive project</h2>
+
+                            <div class="row row-cols-1 row-cols-md-3 g-4 pt-5">
+                                <div class="col">
+                                    <div class="card-animation card aos-init aos-animate"
+                                        style="width: 18rem; height: 94%;" data-aos="fade-down">
+                                        <img class="Projert_img10" src="img/retro-camera-icon.png" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title fs-1 text-light fw-bold text-uppercase">Image Gallery
+                                            </h5>
+                                            <button class="btn btn-outline-danger text-white fw-bold mt-2" tabindex="0"
+                                                data-toggle="popover" data-trigger="focus"
+                                                data-popover-content="#a2">VIEW MORE</button>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="w-25">
+
+                                </div>
+
+                                <div class="col">
+                                    <div class="card-animation-4 card aos-init aos-animate" style="width: 18rem;"
+                                        data-aos="zoom-in">
+                                        <img class="Projert_img11" src="img/purrfect-match.png" alt="">
+                                        <div class="card-body pt-3">
+                                            <h5 class="card-title fs-1 fw-bold text-uppercase text-light">Purrfect Match
+                                            </h5>
+                                            <button class="btn btn-outline-light fw-bold mt-2" tabindex="0"
+                                                data-toggle="popover" data-trigger="focus"
+                                                data-popover-content="#a2">VIEW MORE</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" style="
+                height: 63.3%;">
+                        <div class="container">
+
+                            <h2 class="title7">Fully Responsive project</h2>
+
+                            <div class="row row-cols-1 row-cols-md-3 g-4 pt-5">
+                                <div class="col">
+                                    <div class="card-animation card aos-init aos-animate"
+                                        style="width: 18rem; height: 94%;" data-aos="fade-down">
+                                        <img class="Projert_img12" src="img/tindog-icon.jpg" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title fs-1 text-light fw-bold text-uppercase">Tin Dog</h5>
+                                            <button class="btn btn-outline-danger text-white fw-bold mt-2" tabindex="0"
+                                                data-toggle="popover" data-trigger="focus"
+                                                data-popover-content="#a2">VIEW MORE</button>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="w-25">
+
+                                </div>
+
+                                <div class="col">
+                                    <div class="card-animation-4 card aos-init aos-animate" style="width: 18rem;"
+                                        data-aos="zoom-in">
+                                        <img class="Projert_img13" src="img/parlor-on-tremont.png" alt="">
+                                        <div class="card-body pt-3">
+                                            <h5 class="card-title fs-1 fw-bold text-uppercase text-light">Parlor on
+                                                Tremont</h5>
+                                            <button class="btn btn-outline-light  fw-bold mt-2" tabindex="0"
+                                                data-toggle="popover" data-trigger="focus"
+                                                data-popover-content="#a2">VIEW MORE</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- LOGOS -->
+
+                    <div class="carousel-item">
+                        <div class="title8 position-relative">
+                            <h2 class="text-center fw-bold fs-1 fst-italic" data-aos="zoom-in">Logos<i
+                                    class="fas fa-arrow-right"></i></h2>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" style="
+                height: 63.3%;">
+                        <div class="container">
+
+                            <h2 class="title9 text-uppercase">Logos</h2>
+
+                            <div class="row row-cols-1 row-cols-md-3 g-4 pt-5">
+                                <div class="col">
+                                    <div class="card-animation card aos-init aos-animate"
+                                        style="width: 18rem; height: 94%;" data-aos="fade-down">
+                                        <img class="Projert_img14" src="img/S-logo.png" alt="">
+
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="card-animation-4 card aos-init aos-animate" style="width: 18rem;"
+                                        data-aos="zoom-in">
+                                        <img class="Projert_img15" src="img/TECH WORK LOGO.jfif" alt="">
+
+                                    </div>
+                                </div>
+
+
+                                <div class="col">
+                                    <div class="card-animation-4 card aos-init aos-animate" style="width: 18rem;"
+                                        data-aos="zoom-in">
+                                        <img class="Projert_img16" src="img/Teck-work.png" alt="">
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item" style="
+height: 63.3%;">
+                        <div class="container">
+
+                            <h2 class="title10 text-uppercase">Logos</h2>
+
+                            <div class="row row-cols-1 row-cols-md-3 g-4 pt-5">
+                                <div class="col">
+                                    <div class="card-animation card aos-init aos-animate"
+                                        style="width: 18rem; height: 100vh;" data-aos="fade-down">
+                                        <img class="Projert_img17" src="img/mt.png" alt="">
+
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="card-animation-4 card aos-init aos-animate"
+                                        style="width: 18rem;  height: 100vh;" data-aos="zoom-in">
+                                        <img class="Projert_img18" src="img/mt2.png" alt="">
+
+                                    </div>
+                                </div>
+
+
+                                <div class="col">
+                                    <div class="card-animation-4 card aos-init aos-animate"
+                                        style="width: 18rem;  height: 100vh;" data-aos="zoom-in">
+                                        <img class="Projert_img19" src="img/Vh.png" alt="">
+
+                                    </div>
+                                </div>
+
+
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                
-                <div class="serv-content4 Project_content">
-                    <div class="card Project_card" data-aos="flip-left">
-                        <div class="box Project_box">
-                            <a href="https://digital-emporium-online-store.netlify.app/"><img class="Projert_img8" src="img/Digital_Emporium_logo.png" alt=""></a>
-                        <div class="text8">Digital-Emporim</div>
-                    </div>
+                <div class="carousel-indicators pt-5 top-100">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6"
+                        aria-label="Slide 7"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="7"
+                        aria-label="Slide 8"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="8"
+                        aria-label="Slide 9"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="9"
+                        aria-label="Slide 10"></button>
                 </div>
-                <div class="card Project_card" data-aos="flip-left">
-                    <div class="box Project_box">
-                        <a href="https://digital-emporium-online-store.netlify.app/"><img class="Projert_img9" src="img/Facebookicon.png" alt=""></a>
-                        <div class="text9">Digital-Emporim</div>
+            </div>
+
+            <!-- MODALS -->
+            <!-- CV1 -->
+            <div class="modal fade" id="cv1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true"
+                style="background-color:rgba(44, 119, 221, 0.5);">
+                <div class="modal-dialog">
+                    <div class="modal-content" style="background: #232f3e;">
+                        <div class="modal-header">
+                            <h1 class="modal-title text-white fw-bold fs-2" id="staticBackdropLabel">CV1</h1>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img class="Projert_modal_img1" src="img/cv1-logo.png" alt="">
+                        </div>
+
+                        <div class="modal-body">
+                            <p class="text-white fw-bold fs-4">This Project is a single page project.This project is
+                                created by using HTML5.This is a non responsive Project</p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="https://cv-example-1.netlify.app/" type="button" target="blank"
+                                class="btn btn-outline-warning text-white fw-bold text-uppercase">Visit Site</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            
-            <div class="title7"></div>
-            
-            <div class="serv-content5 Project_content">
-                <div class="card Project_card" data-aos="flip-left">
-                    <div class="box Project_box">
-                        <a href="#"><img class="Projert_img10" src="img/S-logo.png" alt=""></a>
-                        <div class="text10">Digital-Emporim</div>
+            <!-- CV2 -->
+            <div class="modal fade" id="cv2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true"
+                style="background-color:rgba(44, 119, 221, 0.5);">
+                <div class="modal-dialog">
+                    <div class="modal-content" style="background: #232f3e;">
+                        <div class="modal-header">
+                            <h1 class="modal-title text-white fw-bold fs-2" id="staticBackdropLabel">CV2</h1>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img class="Projert_modal_img1" src="img/cv2-logo.png" alt="">
+                        </div>
+
+                        <div class="modal-body">
+                            <p class="text-white fw-bold fs-4">This Project is a multipage project.This project is
+                                created by using HTML5.This is a non responsive Project</p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="https://cv-example-2.netlify.app/" target="blank" type="button"
+                                class="btn btn-outline-primary text-white fw-bold text-uppercase">Visit Site</a>
+                        </div>
                     </div>
                 </div>
-                <div class="card Project_card" data-aos="flip-left">
-                    <div class="box Project_box">
-                        <a href="https://digital-emporium-online-store.netlify.app/"><img class="Projert_img11" src="img/Facebookicon.png" alt=""></a>
-                        <div class="text11">Digital-Emporim</div>
-                    </div>
-                </div>
-                
-                <div class="card Project_card" data-aos="flip-left">
-                    <div class="box Project_box">
-                        <a href="https://digital-emporium-online-store.netlify.app/"><img class="Projert_img12" src="img/Facebookicon.png" alt=""></a>
-                        <div class="text12">Digital-Emporim</div>
-                    </div>
-                </div>
-                
             </div>
+            <!-- ADIDAS -->
+            <div class="modal fade" id="adidas" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true"
+                style="background-color:rgba(44, 119, 221, 0.5);">
+                <div class="modal-dialog">
+                    <div class="modal-content" style="background: #232f3e;">
+                        <div class="modal-header">
+                            <h1 class="modal-title text-white fw-bold fs-2" id="staticBackdropLabel">ADIDAS</h1>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img class="Projert_modal_img1" src="img/addidas.png" alt="">
+                        </div>
+
+                        <div class="modal-body">
+                            <p class="text-white fw-bold fs-4">This Project is a multipage project.This project is
+                                created by using HTML5 and Simple CSS.This is a non responsive Project</p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="https://adidas-online-shopping-store.netlify.app/" target="blank" type="button"
+                                class="btn btn-outline-light  fw-bold text-uppercase">Visit Site</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MONIS ONINE STORE -->
+
+            <div class="modal fade" id="monis-online-store" data-bs-backdrop="static" data-bs-keyboard="false"
+                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true"
+                style="background-color:rgba(44, 119, 221, 0.5);">
+                <div class="modal-dialog">
+                    <div class="modal-content" style="background: #232f3e;">
+                        <div class="modal-header">
+                            <h1 class="modal-title text-white fw-bold fs-2" id="staticBackdropLabel">MONIS ONLINE STORE
+                            </h1>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img class="Projert_modal_img1" src="img/logo.png" alt="">
+                        </div>
+                        <div class="modal-body">
+                            <p class="text-white fw-bold fs-4">This Project is a multipage project.This project is
+                                created by using HTML5 and Simple CSS.This is a non responsive Project</p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="https://monis-online-store.netlify.app/" target="blank" type="button"
+                                class="btn btn-outline-primary text-white fw-bold text-uppercase">Visit Site</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- NATOURS -->
+<div class="modal fade" id="natours" data-bs-backdrop="static" data-bs-keyboard="false"
+tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true"
+style="background-color:rgba(44, 119, 221, 0.5);">
+<div class="modal-dialog">
+    <div class="modal-content" style="background: #232f3e;">
+        <div class="modal-header">
+            <h1 class="modal-title text-white fw-bold fs-2" id="staticBackdropLabel">NATOURS
+            </h1>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                aria-label="Close"></button>
         </div>
-        
+        <div class="modal-body">
+            <img class="Projert_modal_img1" src="img/Natours.png" alt="">
+        </div>
+        <div class="modal-body">
+            <p class="text-white fw-bold fs-4">This Project is a multipage project.This project is
+                created by using HTML5, CSS and various animations.This is a Fully responsive Project</p>
+        </div>
+        <div class="modal-footer">
+            <a href="https://natours-monis.netlify.app/" target="blank" type="button"
+                class="btn btn-outline-success text-white fw-bold text-uppercase">Visit Site</a>
+        </div>
     </div>
-        
-    </section>-->
+</div>
+</div>
+
+
+
+</div>
+
+    </section>
     <!--contact Section  start
     <section class="contact" id="contact">
         <div class="max-width">
@@ -477,15 +1049,15 @@
             <i class="fas fa-angle-up" aria-hidden="true" ></i>
         </a>
         
-    -->
-
-
+        
+        
     </footer>
+-->
 
-  
+
     <script>
         AOS.init();
-      </script>
+    </script>
 </body>
 
 </html>
