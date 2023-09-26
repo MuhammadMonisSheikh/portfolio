@@ -1,1 +1,200 @@
-  
+/* lAPTOPS OR COMPUTERS */
+@media (max-width:1350px) {
+
+    .monis-pic-height {
+        height: 96%;
+    }
+
+}
+
+@media (max-width:1230px) {
+    #My_Projects .title3::before {
+        width: 34vw;
+        content: "";
+    }
+
+    #My_Projects .title4::before {
+        width: 34vw;
+        content: "";
+    }
+
+    #My_Projects .title5::before {
+        width: 40vw;
+        content: "";
+    }
+
+
+    #My_Projects .title11::before {
+        width: 40vw;
+        content: "";
+    }
+
+
+
+    #My_Projects .title6::before {
+        width: 38vw;
+        content: "";
+    }
+
+
+    #My_Projects .title7::before {
+        width: 40vw;
+        content: "";
+    }
+
+
+
+    #My_Projects .title8::before {
+        width: 34vw;
+        content: "";
+    }
+
+
+
+
+    #My_Projects .title9::before {
+        width: 30vw;
+        content: "";
+    }
+
+
+
+
+    #My_Projects .title10::before {
+        width: 25vw;
+        content: "";
+    }
+
+
+
+
+
+
+
+
+}
+
+
+@media (max-width:1199px) {
+    .M_M_S {
+        font-size: 2rem !important;
+    }
+
+
+    .M-logo {
+        height: 60vh;
+        width: 92%;
+    }
+
+    #services {
+        height: 112vh;
+    }
+
+    .services .card-animation {
+        padding: 45px 25px;
+        height: 96%;
+    }
+
+
+
+    .services .card-animation-2 {
+        height: 96%;
+        padding: 40px 25px;
+    }
+
+
+    .services .card-animation-3 {
+        height: 96%;
+    }
+
+
+    #skills {
+        height: 100vh;
+    }
+
+    .MCSE {
+        font-size: 2rem !important;
+    }
+
+
+    .skills .info {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width:1072px){
+
+    .monis-pic-height {
+        padding-top: 82px;
+        height: 100%;
+        width: 48vw;
+    }
+    
+
+    #skills {
+        height: 108vh;
+    }
+    
+}
+
+
+
+@media (max-width: 1000px){
+.monis-pic-height {
+    padding-top: 123px;
+     width: 47vw;
+}
+}
+
+
+@media (max-width:991px) {
+   
+    img.logo {
+        width: 4vw;
+    }    
+
+
+    .about {
+         height: 120vh;
+    }
+
+    
+    #services {
+        height: 152vh;
+    }
+    
+    
+    #skills {
+        height: 200vh;
+    }
+
+    
+    .skills .info {
+        margin-top: 22px;
+        margin-bottom: 60px;
+    }
+
+    .desktop-view{
+        display: none;
+    }
+
+
+    .mobile-tablet-view{
+        display: inline;
+    }
+    
+    #My_Projects{
+        height: 260vh;
+    }
+
+    #My_Projects .title2 {
+        height: 35%;
+    }
+    
+    #My_Projects .title8 {
+        height: 35%;
+    }
+    
+
+}
