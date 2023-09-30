@@ -12,10 +12,10 @@ html {
 
 
 /* SCROLLBAR */
-/* 
+ 
 ::-webkit-scrollbar {
 display: none; 
-} */
+} 
 
 /* NAVBAR */
 
@@ -1546,7 +1546,7 @@ top: 5%;
 }
 
 .facebook{
-    --color: #204696;
+    --color: #1B76F0;
 }
 
 .instagram{
