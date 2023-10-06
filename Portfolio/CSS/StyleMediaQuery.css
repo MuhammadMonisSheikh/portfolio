@@ -1,6 +1,11 @@
-/* GESKTOP VIEW */
+/* DESKTOP VIEW */
 
-@media (width:3840px) {
+@media (max-width:3840px) and (min-width:3200px) {
+/* NAVBAR */
+.navbar{
+    height: 10% !important;
+}
+
 
 .responsive-nav{
     max-width: 150vw !important;
@@ -38,7 +43,611 @@
     height: 136%;
 }
 
+
+.responsive-about{
+    max-width: 70vw !important;
 }
+
+
+/* ABOUT */
+
+.about {
+     height: 78%;
+}
+
+
+.about .title {
+     font-size: 90px;
+     padding-bottom: 80px;
+}
+
+.about .title::after {
+     font-size: 60px;
+}
+
+
+.about .title::before {
+    content: "";
+     bottom: 22px;
+     width: 482px;
+}
+
+.about .fs-4 {
+    font-size: 3.5rem!important;
+}
+
+.about .about-paragraph{
+    font-size: 3.3rem !important;
+}
+
+
+.about a {
+     font-size: 62px;
+     margin-top: 75px;
+}
+
+/* SERVICES */
+
+#services {
+     height: 88vh;
+}
+
+
+#services .container{
+    max-width: 97vw;
+}
+
+.services .title {
+     font-size: 90px;
+     padding-bottom: 74px;
+}
+
+.services .title::after {
+     font-size: 54px;
+}
+
+.services .title::before {
+    content: "";
+     bottom: 18px;
+     width: 605px;
+    height: 9px;
+
+}
+
+
+.services .pt-5 {
+    padding-top: 16rem!important;
+}
+
+
+.services .card-animation {
+     padding: 153px 60px;
+}
+
+.services .card-animation i {
+    font-size: 174px;
+}
+
+.services .fs-1 {
+    font-size: 3.5rem!important;
+}
+
+
+
+.services .card-animation-2 {
+     padding: 153px 60px;
+}
+
+.services .card-animation-2 i {
+    font-size: 174px;
+}
+
+.services .card-animation-3 {
+         padding:124px 60px;
+    }
+
+.services .card-animation-3 i {
+        font-size: 174px;
+    }
+
+.services  .fs-2 {
+        font-size: 4rem!important;
+    }
+
+
+    .services    .fs-6 {
+        font-size: 3rem!important;
+    }
+
+    /* SKILLS */
+
+    #skills {
+         height: 90vh;
+    }
+
+
+    #skills .container{
+        max-width: 76vw;
+    }
+
+    .skills .title {
+      font-size: 120px;
+      padding-bottom: 106px;
+
+    }
+
+    .skills .title::after {
+         font-size: 70px;
+    }
+    .skills .title::before {
+        content: "";
+         bottom: 24px;
+         width: 16vw;
+height: 10px;    
+}
+
+.skills .pt-5 {
+    padding-top: 17rem!important;
+}
+                               
+    
+.skills .fs-5 {
+    font-size: 4rem!important;
+}
+
+.skills .fs-4 {
+    font-size: 3.5rem!important;
+}
+
+
+.skills .info {
+     margin-bottom: 108px;
+}
+
+.skills span {
+    font-weight: 500;
+    font-size: 51px;
+}
+
+/* FEEDBACK */
+
+.feedback .title {
+     font-size: 110px;
+     padding-bottom: 92px;
+}
+
+.feedback .title::before {
+    content: "";
+     bottom: 23px;
+     width: 24vw;
+    height: 10px;
+}
+
+
+.feedback .title::after {
+     bottom: -8px;
+     font-size: 74px;
+}
+
+
+.feedback .pt-5 {
+    padding-top: 16rem!important;
+}
+
+.feedback .card-animation {
+     padding:190px 15px;
+width:35rem !important;
+}
+.feedback .card-animation img {
+    top: -17%;
+    height: 16vh;
+    width: 10vw;
+   left: 14%;
+}
+.feedback .card-animation-2 {
+    padding: 190px 15px;
+width: 35rem !important;
+}
+.feedback .card-animation-2 img {
+    top: -17%;
+    height: 16vh;
+    width: 10vw;
+     left: 14%;
+}
+.feedback .card-animation-3 {
+    padding: 190px 15px;
+width: 35rem !important;
+}
+.feedback .card-animation-3 img {
+    top: -17%;
+    height: 16vh;
+    width: 10vw;
+   left: 14%;
+}
+ 
+.feedback .container-sm{
+    max-width: 50vw;
+}
+ 
+.feedback  h2 {
+    font-size: 4rem;
+}
+
+.feedback .fs-5 {
+    font-size: 3.25rem!important;
+}
+.feedback #carouselExampleIndicators .carousel-indicators [data-bs-target] {
+   
+    width: 3vw !important;
+height: 1vh !important;
+}
+
+/* MY PROJECTS */
+
+#My_Projects {
+     height: 90vh;
+}
+
+#My_Projects .container{
+    max-width: 46vw;
+}
+
+#My_Projects .title {
+     font-size: 114px;
+     padding-bottom: 60px;
+}
+
+#My_Projects .title::after {
+     font-size: 66px;
+}
+
+#My_Projects .title::before {
+    content: "";
+     bottom: 27px;
+     width: 16vw;
+    height: 6px;
+}
+
+
+#My_Projects .carousel-indicators [data-bs-target] {
+     width: 3vw !important;
+    height: 1vh !important;
+}
+#My_Projects .title2 {
+    height: 86.3%;
+     padding-top: 24rem;
+}
+
+
+#My_Projects .title3 {
+     font-size: 4.5rem;
+     padding-bottom: 60px;
+}
+    #My_Projects .title3::after {
+    width: 36vw; 
+    font-size: 3rem;
+}
+
+
+#My_Projects .title3::before {
+    width: 45vw; 
+    content: "";
+    bottom: 8%;
+}
+
+
+#My_Projects .title4 {
+     font-size: 5rem;
+     padding-bottom: 60px;
+}
+
+#My_Projects .title4::after {
+    width: 36vw;
+    font-size: 3rem;
+}
+
+
+
+
+#My_Projects .title4::before {
+    width: 45vw; 
+    content: "";
+    bottom: 8%;
+}
+#My_Projects .title5 {
+     font-size: 4.5rem;
+     padding-bottom: 60px;
+}
+
+#My_Projects .title5::after {
+    width: 40vw;
+    font-size: 2.5rem;
+}
+
+
+
+
+#My_Projects .title5::before {
+    width: 45vw; 
+    content: "";
+    bottom: 8%;
+}
+#My_Projects .title11 {
+     font-size: 4.5rem;
+     padding-bottom: 60px;
+}
+
+#My_Projects .title11::after {
+    width: 36vw;
+    font-size: 3rem;
+}
+
+
+
+
+#My_Projects .title11::before {
+    width: 45vw; 
+    content: "";
+    bottom: 8%;
+}
+
+#My_Projects .title6 {
+     font-size: 4.5rem;
+     padding-bottom: 60px;
+}
+
+#My_Projects .title6::after {
+    width: 40vw;
+    font-size: 3rem;
+}
+
+
+
+
+#My_Projects .title6::before {
+    width: 45vw; 
+    content: "";
+    bottom: 8%;
+}
+#My_Projects .title7 {
+     font-size: 4.5rem;
+     padding-bottom: 60px;
+}
+
+#My_Projects .title7::after {
+    width: 40vw;
+    font-size: 2.5rem;
+}
+
+
+
+
+#My_Projects .title7::before {
+    width: 45vw; 
+    content: "";
+    bottom: 8%;
+}
+
+
+#My_Projects .title8 {
+    height: 86.3%;
+     padding-top: 24rem;
+}        
+
+
+#My_Projects .title9 {
+     font-size: 4.5rem;
+     padding-bottom: 60px;
+}
+
+#My_Projects .title9::after {
+    width: 40vw;
+    font-size: 3rem;
+}
+
+
+
+
+#My_Projects .title9::before {
+    width: 45vw; 
+    content: "";
+    bottom: 8%;
+}
+
+#My_Projects .title10 {
+     font-size: 4.5rem;
+     padding-bottom: 60px;
+}
+
+#My_Projects .title10::after {
+    width: 40vw;
+    font-size: 3rem;
+}
+
+
+
+
+#My_Projects .title10::before {
+    width: 45vw; 
+    content: "";
+    bottom: 8%;
+}
+
+
+#My_Projects .carousel-item{
+    height:58.3% !important;
+}
+
+ #My_Projects .desktop-view .card-animation{
+    width: 35rem !important;
+    height: 30vh !important;
+}
+
+#My_Projects .desktop-view .card-animation-2{
+    width: 35rem !important;
+    height: 30vh !important;
+}
+
+#My_Projects .desktop-view .card-animation-3{
+    width: 35rem !important;
+    height: 30vh !important;
+}
+
+
+#My_Projects .desktop-view .card-animation-4{
+    width: 35rem !important;
+    height: 30vh !important;
+}
+
+
+#My_Projects .btn{
+    font-size: 4rem !important;
+}
+
+
+.Projert_img14 {
+height: 24vh;
+}
+
+.Projert_img15 {
+height: 24vh;
+}
+
+.Projert_img16 {
+height: 24vh;
+}
+
+
+.Projert_img17 {
+height: 24vh;
+}
+
+.Projert_img18 {
+height: 24vh;
+}
+
+.Projert_img19 {
+height: 24vh;
+}
+
+.Projert_modal_img1 {
+     height: 32vh !important;
+}
+
+#My_Projects .fs-2 {
+    font-size: 4rem!important;
+}
+
+
+#My_Projects .btn-close{
+font-size: 6rem;
+}
+
+.Projert_modal_img2 {
+     height: 32vh !important;
+}
+
+
+.Projert_modal_img3 {
+     height: 32vh !important;
+}
+
+
+
+.Projert_modal_img4 {
+     height: 32vh !important;
+}
+
+
+
+
+.Projert_modal_img5 {
+     height: 32vh !important;
+}
+
+
+
+
+.Projert_modal_img6 {
+     height: 32vh !important;
+}
+
+
+
+.Projert_modal_img7 {
+     height: 32vh !important;
+}
+
+
+
+.Projert_modal_img8 {
+     height: 32vh !important;
+}
+
+
+
+.Projert_modal_img9 {
+     height: 32vh !important;
+}
+
+
+.Projert_modal_img10 {
+     height: 32vh !important;
+}
+
+
+.Projert_modal_img11 {
+     height: 32vh !important;
+}
+
+
+.Projert_modal_img12 {
+     height: 32vh !important;
+}
+
+
+.Projert_modal_img13 {
+     height: 32vh !important;
+}
+
+
+.Projert_modal_img14 {
+     height: 32vh !important;
+}
+
+#My_Projects .fs-4 {
+    font-size: 2.5rem!important;
+}
+
+#My_Projects .modal-dialog{
+    max-width: 30vw !important;
+    padding-top: 10%;
+}
+#My_Projects .modal-content {
+  top: 10%;
+    height: 60vh;
+}
+
+/* CONTACT */
+
+#contact .title {
+    font-size: 114px;
+    padding-bottom: 60px;
+}
+
+#contact .title::after {
+    font-size: 66px;
+}
+
+#contact .title::before {
+   content: "";
+    bottom: 27px;
+    width: 16vw;
+   height: 6px;
+}
+
+}
+
 
 
 /* lAPTOPS VIEW */
@@ -173,8 +782,74 @@
     }
     
 }
+@media (width: 1024px){
+    #home {
+         height: 75%;
+    }
+    .navbar{
+        height: 9% !important;
+    }
+
+    img.logo {
+        width: 8vw;
+    }
+
+.monis-pic-height {
+    padding-top: 138px;
+    height: 88%;
+    width: 75vw;
+    left: 25%;
+    position: absolute;
+}
+
+#content {
+    padding-top: 26rem;
+    height: 63vh;
+}
+
+.about {
+    font-family: 'Poppins', sans-serif;
+    height: 55%;
+}
+.M-logo {
+    height: 30vh;
+}
+
+#services {
+    height: 56vh;
+}
+
+#skills {
+    height: 580px;
+}
+
+#feedback {
+     height: 52vh;
+}
 
 
+#My_Projects {
+     height: 66vh;
+
+}
+
+#My_Projects .desktop-view .card-animation{
+     height: 30vh !important;
+}
+
+
+#My_Projects .desktop-view .card-animation-4{
+    height: 30vh !important;
+}
+
+#contact {
+     height: 46vh;
+}
+#footer {
+     height: 14vh;
+}
+
+}
 
 @media (max-width: 1000px){
 .monis-pic-height {
@@ -183,7 +858,7 @@
 }
 }
 
-/* LAPROP VIEW */
+/* TABLET VIEW */
 
 @media (max-width:991px) {
    
@@ -323,7 +998,146 @@
 }
 
 }
+@media (width:834px) {
+    #home {
+         height: 78%;
+    }
+ 
+    .navbar{
+        height: 8% !important;
+    }
 
+    img.logo {
+        width: 8vw;
+    }
+
+    #content {
+        padding-top: 22rem;
+        height: 56vh;
+    }
+
+
+.monis-pic-height {
+    height: 84%;
+    padding-top: 123px;
+    width: 78vw;
+    position: absolute;
+    left: 22%;
+}
+
+.about {
+    height: 98vh;
+}
+
+.M-logo {
+    height: 30vh;
+    top: 262px;
+    position: relative;
+}
+
+.about .fs-4 {
+    font-size: 2rem !important;
+}
+
+.about-paragraph{
+    font-size: 20px !important;
+}
+
+
+#services {
+    height: 88vh;
+}
+
+#skills {
+    height: 1198px;
+}
+#feedback {
+    height: 650px;
+}
+
+#My_Projects {
+    height: 160vh;
+}
+
+
+.Projert_img3 {
+     height: 20vh!important;
+}
+
+
+.Projert_img4 {
+    height: 20vh!important;
+}
+
+
+.Projert_img5 {
+    height: 20vh!important;
+}
+
+
+.Projert_img6 {
+    height: 20vh!important;
+}
+
+
+.Projert_img7 {
+    height: 20vh!important;
+}
+
+.Projert_img9 {
+     height: 26% !important;
+}
+
+.Projert_img11 {
+     height: 28% !important;
+}
+
+
+.Projert_img13 {
+    height: 28% !important;
+}
+
+.Projert_img14 {
+     height: 50vh !important;
+}
+
+.Projert_img15 {
+    height: 24vh !important;
+}
+
+.Projert_img16 {
+    height: 24vh !important;
+}
+
+.Projert_img17 {
+    height: 24vh !important;
+}
+
+.Projert_img18 {
+    height: 24vh !important;
+}
+
+.Projert_img19 {
+    height: 24vh !important;
+}
+
+#My_Projects #carouselExampleDarkL .card-animation{
+        height: 36vh !important;
+}
+
+
+#My_Projects #carouselExampleDarkL .card-animation-4{
+    height: 36vh !important;
+}
+
+#contact {
+    height: 78vh;
+}
+
+#footer {
+     height: 14vh;
+}
+}
 
 @media (max-width:830px){
     
@@ -392,11 +1206,153 @@
 
 }
 
+@media (width:810px){
+    
+    .navbar{
+        height: 8% !important;
+    }
+        img.logo {
+            width: 7vw;
+        }
+
+    #content {
+        padding-top: 19rem;
+        height: 70vh;
+    }
+
+.monis-pic-height {
+    padding-top: 110px;
+    width: 78vw;
+    position: absolute;
+    left: 22%;
+    height: 88%;
+}
+
+.about {
+    height: 90vh;
+}
+
+.M-logo {
+    height: 30vh;
+    position: relative;
+    top: 28%;
+}
+
+
+.about .about-paragraph{
+    font-size: 18px !important;
+}
+
+
+#services {
+    height: 98vh;
+}
+
+#skills {
+    height: 1220px;
+}
+#feedback {
+     height: 66vh;
+}
+
+#My_Projects {
+    height: 190vh;
+}
+
+
+#My_Projects #carouselExampleDarkw .card-animation-4{
+     height: 44vh !important; 
+}
+
+#My_Projects #carouselExampleDarkw .card-animation{
+    height: 82% !important;
+}
+
+#My_Projects #carouselExampleDarkL .card-animation{
+     height: 80%;
+}
+
+
+#My_Projects #carouselExampleDarkL .card-animation-4{
+     height: 82% !important;
+}
+
+#contact {
+    height: 88vh;
+}
+
+#footer {
+     height: 18vh;
+}
+
+}
+
 @media (max-width:770px){
     
 
 .nav-link-hover-footer {
      font-size: 1rem !important;
+}
+
+}
+
+@media (width:768px){
+    #home {
+         height: 72%;
+    }
+
+    .navbar{
+    height: 8% !important;
+}
+
+img.logo {
+    width: 8vw;
+}
+.monis-pic-height {
+    height: 86%;
+    padding-top: 75px;
+    width: 72vw;
+    position: absolute;
+    left: 28%;
+}
+
+.about {
+    height: 104vh;
+}
+
+.M-logo {
+    height: 32vh;
+    position: relative;
+    top: 26%;
+}
+
+.about .about-paragraph{
+    font-size: 20px !important;
+}
+
+#services {
+    height: 102vh;
+}
+
+
+#skills {
+    height: 1236px;
+}
+
+#feedback {
+     height: 640px;
+}
+
+#My_Projects {
+    height: 176vh;
+}
+
+#contact {
+    height: 92vh;
+}
+
+#footer {
+     height: 16vh;
 }
 
 }
@@ -771,4 +1727,320 @@ content: "";
     flex: 0 0 auto;
     width: 33.33333333% !important;
 }
+}
+
+@media (max-width: 480px){
+    .navbar{
+        height:10% !important;
+    }
+        img.logo {
+        width: 12vw;
+        height: 7vh;
+    }
+
+    .M-logo-container{
+        height: 90vh;
+    }
+
+
+    .responsive-card {
+    position: relative;
+    left: 58px;
+}
+
+.about {
+    height: 1360px;
+}
+
+
+.about-paragraph{
+    font-size: 1.2rem;
+}
+
+#services {
+    height: 1270px;
+}
+
+
+#skills {
+    height: 1238px;
+
+}
+}
+@media (max-width: 414px){
+
+#content {
+    height: 73vh;
+}
+}
+
+@media (max-width: 412px){
+
+    img.logo {
+        width: 12vw;
+    }
+
+    #content {
+         height: 83vh;
+    }
+.monis-pic-height {
+    height: 72%;
+    padding-top: 7px;
+    width: 98vw;
+    position: absolute;
+    right: 42px;
+}
+
+.about {
+    height: 138vh;
+}
+
+.M-logo-container {
+    height: 46vh;
+}
+
+
+.M-logo {
+   height: 38vh;
+}
+
+
+.responsive-card {
+    position: relative;
+    left: 40px;
+}
+
+#services {
+    height: 1272px;
+}
+
+#skills {
+    height: 1214px;
+}
+
+
+}
+
+@media (max-width: 393px){
+
+    #content {
+         height: 73vh;
+    }
+
+.monis-pic-height {
+     width: 110vw;
+}
+
+
+.feedback .title::after {
+     width: 210px;
+}
+}
+
+@media (max-width: 390px){
+
+.feedback .title::after {
+     width: 52%;
+}
+
+.about {
+    height: 148vh;
+}
+
+#footer .fs-5 {
+    font-size: 1rem!important;
+}
+
+.responsive-card {
+    position: relative;
+    left: 20px;
+}
+
+
+}
+
+@media (max-width: 384px){
+
+.feedback .title::after {
+     width: 54%;
+}
+
+.feedback .title::before {
+     width: 280px;
+}
+
+.responsive-card {
+    position: relative;
+    left: 22px;
+}
+
+
+}
+ 
+
+@media (max-width: 375px){
+#content {
+    height: 84vh;
+}
+
+
+.about {
+    height: 164vh;
+}
+
+#services {
+    height: 1304px;
+}
+
+#skills {
+    height: 1200px;
+}
+
+
+#My_Projects .mobile-tablet-view .carouselExampleDarkw .carousel-item{
+    height: 40% !important;
+}
+
+
+
+}
+
+@media (max-width: 360px){
+
+  
+
+    img.logo {
+    width: 12vw;
+}
+
+
+#content {
+        height: 72vh;
+}
+
+    .monis-pic-height {
+    padding-top: 57px;
+    width: 98vw;
+    height: 82%;
+}
+
+
+.about {
+    height: 1114px;
+}
+
+.M-logo-container{
+    height: 60vh;
+}
+
+
+.M-logo {
+     height: 52vh;
+}
+
+#services {
+    height: 1340px;
+}
+
+
+#skills {
+    height: 1200px;
+}
+
+
+#feedback {
+     height: 655px;
+}
+
+.feedback .title::after {
+     width: 62%;
+}
+
+.feedback .title::before {
+    content: "";
+     bottom: 2px;
+     width: 278px;
+}
+
+.responsive-card {
+    position: relative;
+    left: 18px;
+}
+
+
+}
+
+@media (max-width: 320px){
+
+#home {
+    height: 180vh;
+}
+
+#content {
+    height: 104vh;
+}
+
+.M-logo-container {
+    height: 68vh;
+}
+
+.about {
+    height: 214vh;
+}
+
+#services {
+    height: 1336px;
+}
+
+
+#skills {
+    height: 1230px;
+}
+
+#feedback {
+     height: 126vh;
+}
+
+
+#My_Projects {
+    height: 290vh;
+}
+
+.responsive-card {
+    position: relative;
+    left: -8px;
+}
+
+#My_Projects #carouselExampleDarkw .card-animation{
+     height: 60vh !important;
+}
+
+
+#My_Projects #carouselExampleDarkw .card-animation-2{
+    height: 60vh !important;
+}
+
+
+#My_Projects #carouselExampleDarkw .card-animation-3{
+    height: 60vh !important;
+}
+
+
+#My_Projects #carouselExampleDarkw .carousel-item{
+    height: 38% !important;
+}
+#My_Projects .title2 {
+    height: 92%;
+}
+
+.col-sm-4 {
+    flex: 0 0 auto;
+    width: 98.333333% !important;
+}
+
+#contact {
+    height: 215vh;
+}
+
+
 }
