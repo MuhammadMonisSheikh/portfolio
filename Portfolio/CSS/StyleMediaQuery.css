@@ -1,10 +1,25 @@
 /* DESKTOP VIEW */
 
 @media (max-width:3840px) and (min-width:3200px) {
-/* NAVBAR */
-.navbar{
-    height: 10% !important;
+
+#home{
+    height: 2160px;
 }
+
+
+    /* NAVBAR */
+
+
+
+.navbar{
+    height: 210px !important;
+}
+
+img.logo {
+    width: 144px;
+    height: 144px;
+}
+
 
 
 .responsive-nav{
@@ -48,11 +63,15 @@
     max-width: 70vw !important;
 }
 
+.hire_me {
+     font-size: 102px;
+}
+
 
 /* ABOUT */
 
 .about {
-     height: 78%;
+     height: 1800px;
 }
 
 
@@ -89,7 +108,7 @@
 /* SERVICES */
 
 #services {
-     height: 88vh;
+     height: 1800px;
 }
 
 
@@ -162,7 +181,7 @@
     /* SKILLS */
 
     #skills {
-         height: 90vh;
+         height: 1500px;
     }
 
 
@@ -210,6 +229,11 @@ height: 10px;
 }
 
 /* FEEDBACK */
+
+
+#feedback{
+    height: 2350px;
+}
 
 .feedback .title {
      font-size: 110px;
@@ -282,10 +306,12 @@ width: 35rem !important;
 height: 1vh !important;
 }
 
+
+
 /* MY PROJECTS */
 
 #My_Projects {
-     height: 90vh;
+     height: 1800px;
 }
 
 #My_Projects .container{
@@ -505,6 +531,12 @@ height: 1vh !important;
 }
 
 
+
+
+#My_Projects .desktop-view .carousel-item .max-width {
+    max-width: 1775px !important;
+}
+
 .Projert_img14 {
 height: 24vh;
 }
@@ -630,6 +662,12 @@ font-size: 6rem;
 
 /* CONTACT */
 
+
+#contact{
+    height: 1500px;
+}
+
+
 #contact .title {
     font-size: 114px;
     padding-bottom: 60px;
@@ -646,9 +684,66 @@ font-size: 6rem;
    height: 6px;
 }
 
+
+/* FOOTER */
+#footer{
+    height: 300px;
+}
+
+}
+
+@media (max-width:2600px) and (min-width:1440px) {
+
+    #home{
+        height: 1050px;
+    }
+
+    .navbar{
+    height:130px !important;
+    }
+
+    img.logo {
+        width: 72px;
+        height: 72px;
+    }
+    .nav-link-hover {
+         font-size: 2.2rem !important; 
+    }
+
+    #about{
+        height: 800px;
+    }
+#about .about-paragraph{
+    font-size: 1.5rem !important;
+}
+
+.about a {
+    font-size: 32px;
+}
+
+#My_Projects {
+     height: 1434px;
+}
+
+#contact {
+    height: 1000px;
+}
+
+#footer {
+  height: 198px;
 }
 
 
+
+.nav-link-hover-footer {
+     font-size: 2.2rem !important;
+}
+
+#footer .fs-5 {
+    font-size: 2.25rem!important;
+}
+
+}
 
 /* lAPTOPS VIEW */
 @media (max-width:1350px) {
@@ -732,7 +827,7 @@ font-size: 6rem;
     }
 
     #services {
-        height: 112vh;
+        height: 1122px;
     }
 
     .services .card-animation {
@@ -754,7 +849,7 @@ font-size: 6rem;
 
 
     #skills {
-        height: 100vh;
+        height: 1000px;
     }
 
     .MCSE {
@@ -778,20 +873,21 @@ font-size: 6rem;
     
 
     #skills {
-        height: 108vh;
+        height: 1080px;
     }
     
 }
 @media (width: 1024px){
     #home {
-         height: 75%;
+         height: 1000px;
     }
     .navbar{
-        height: 9% !important;
+        height: 150px !important;
     }
 
     img.logo {
-        width: 8vw;
+        width: 90px;
+        height: 90px;
     }
 
 .monis-pic-height {
@@ -816,7 +912,7 @@ font-size: 6rem;
 }
 
 #services {
-    height: 56vh;
+    height: 680px;
 }
 
 #skills {
@@ -824,12 +920,12 @@ font-size: 6rem;
 }
 
 #feedback {
-     height: 52vh;
+     height: 820px;
 }
 
 
 #My_Projects {
-     height: 66vh;
+     height: 1060px;
 
 }
 
@@ -843,10 +939,10 @@ font-size: 6rem;
 }
 
 #contact {
-     height: 46vh;
+     height: 660px;
 }
 #footer {
-     height: 14vh;
+     height: 160px;
 }
 
 }
@@ -863,22 +959,23 @@ font-size: 6rem;
 @media (max-width:991px) {
    
     img.logo {
-        width: 4vw;
+        width: 50px;
+        height: 50px;
     }    
 
 
     .about {
-         height: 120vh;
+         height: 1200px;
     }
 
     
     #services {
-        height: 152vh;
+        height: 1520px;
     }
     
     
     #skills {
-        height: 200vh;
+        height: 2000px;
     }
 
     
@@ -897,7 +994,7 @@ font-size: 6rem;
     }
     
     #My_Projects{
-        height: 260vh;
+        height: 2600px;
     }
 
     #My_Projects .title2 {
@@ -985,12 +1082,12 @@ font-size: 6rem;
     }
 
     #contact {
-         height: 102vh;
+         height: 850px;
     }    
 
 
 .responsive-height{
-    height: 22vh;
+    height: 156px;
 }
 
 .item:after, .item:before {
@@ -1000,20 +1097,21 @@ font-size: 6rem;
 }
 @media (width:834px) {
     #home {
-         height: 78%;
+         height: 880px;
     }
  
     .navbar{
-        height: 8% !important;
+        height: 100px !important;
     }
 
     img.logo {
-        width: 8vw;
+        width: 80px;
+        height: 70px;
     }
 
     #content {
         padding-top: 22rem;
-        height: 56vh;
+        height: 560px;
     }
 
 
@@ -1026,7 +1124,7 @@ font-size: 6rem;
 }
 
 .about {
-    height: 98vh;
+    height: 1080px;
 }
 
 .M-logo {
@@ -1045,7 +1143,7 @@ font-size: 6rem;
 
 
 #services {
-    height: 88vh;
+    height: 1080px;
 }
 
 #skills {
@@ -1056,7 +1154,7 @@ font-size: 6rem;
 }
 
 #My_Projects {
-    height: 160vh;
+    height: 1600px;
 }
 
 
@@ -1131,11 +1229,11 @@ font-size: 6rem;
 }
 
 #contact {
-    height: 78vh;
+    height: 880px;
 }
 
 #footer {
-     height: 14vh;
+     height: 180px;
 }
 }
 
@@ -1207,17 +1305,20 @@ font-size: 6rem;
 }
 
 @media (width:810px){
-    
+    #home{
+        height: 1000px;
+    }
     .navbar{
-        height: 8% !important;
+        height: 130px !important;
     }
         img.logo {
-            width: 7vw;
+            width: 70px;
+            height: 70px;
         }
 
     #content {
         padding-top: 19rem;
-        height: 70vh;
+        height: 700px;
     }
 
 .monis-pic-height {
@@ -1229,7 +1330,7 @@ font-size: 6rem;
 }
 
 .about {
-    height: 90vh;
+    height: 900px;
 }
 
 .M-logo {
@@ -1245,18 +1346,18 @@ font-size: 6rem;
 
 
 #services {
-    height: 98vh;
+    height: 980px;
 }
 
 #skills {
     height: 1220px;
 }
 #feedback {
-     height: 66vh;
+     height: 660px;
 }
 
 #My_Projects {
-    height: 190vh;
+    height: 1900px;
 }
 
 
@@ -1278,11 +1379,11 @@ font-size: 6rem;
 }
 
 #contact {
-    height: 88vh;
+    height: 880px;
 }
 
 #footer {
-     height: 18vh;
+     height: 180px;
 }
 
 }
@@ -1298,15 +1399,16 @@ font-size: 6rem;
 
 @media (width:768px){
     #home {
-         height: 72%;
+         height: 720px;
     }
 
     .navbar{
-    height: 8% !important;
+    height: 120px !important;
 }
 
 img.logo {
-    width: 8vw;
+    width: 80px;
+    height: 80px;
 }
 .monis-pic-height {
     height: 86%;
@@ -1317,7 +1419,7 @@ img.logo {
 }
 
 .about {
-    height: 104vh;
+    height: 1040px;
 }
 
 .M-logo {
@@ -1331,7 +1433,7 @@ img.logo {
 }
 
 #services {
-    height: 102vh;
+    height: 1020px;
 }
 
 
@@ -1344,15 +1446,15 @@ img.logo {
 }
 
 #My_Projects {
-    height: 176vh;
+    height: 1760px;
 }
 
 #contact {
-    height: 92vh;
+    height: 920px;
 }
 
 #footer {
-     height: 16vh;
+     height: 160px;
 }
 
 }
@@ -1361,13 +1463,13 @@ img.logo {
 
 @media (max-width:767px){
 #home {
-    height: 166vh;
+    height: 1660px;
    }
 
 
    #content {
        padding-top: 9rem;
-       height: 62vh;
+       height: 620px;
    }
 
 
@@ -1388,12 +1490,12 @@ img.logo {
 }
 
 img.logo {
-   width: 6vw;
-height: 7vh;
+   width: 70px;
+height: 70px;
 }
 
 #services {
-    height: 184vh;
+    height: 1840px;
 }
 
 
@@ -1507,8 +1609,8 @@ font-size: 10px;
 @media (max-width:640px){
 
     img.logo {
-        width: 8vw;
-        height: 8vh;
+        width: 60px;
+        height: 60px;
     }
 
 .nav-link-hover-footer { 
@@ -1615,7 +1717,7 @@ content: "";
 
 @media (max-width: 600px){
 #home {
-    height: 144vh;
+    height: 1440px;
 }
 
 
@@ -1730,12 +1832,17 @@ content: "";
 }
 
 @media (max-width: 480px){
+   
+    #home{
+        height: 1004px;
+    }
+   
     .navbar{
-        height:10% !important;
+        height:80px !important;
     }
         img.logo {
-        width: 12vw;
-        height: 7vh;
+        width: 40px;
+        height: 40px;
     }
 
     .M-logo-container{
@@ -1767,21 +1874,53 @@ content: "";
 
 }
 }
+
+
+@media (max-width: 430px){
+
+#My_Projects {
+    height: 1900px;
+}
+}
+
+@media (max-width: 428px){
+
+#My_Projects {
+    height: 1800px;
+}
+
+}
+
 @media (max-width: 414px){
 
 #content {
-    height: 73vh;
+    height: 800px;
 }
+
+
+.about {
+    height:1300px;
+}
+
+
+#My_Projects {
+    height: 1862px;
+}
+
 }
 
 @media (max-width: 412px){
+#home{
+    height: 1260px;
+}
 
     img.logo {
-        width: 12vw;
+        width: 40px;
+        height: 40px;
     }
 
     #content {
-         height: 83vh;
+         height: 830px;
     }
 .monis-pic-height {
     height: 72%;
@@ -1792,7 +1931,7 @@ content: "";
 }
 
 .about {
-    height: 138vh;
+    height: 1015px;
 }
 
 .M-logo-container {
@@ -1824,7 +1963,7 @@ content: "";
 @media (max-width: 393px){
 
     #content {
-         height: 73vh;
+         height: 730px;
     }
 
 .monis-pic-height {
@@ -1839,12 +1978,17 @@ content: "";
 
 @media (max-width: 390px){
 
+    #home {
+        height: 1080px;
+    }
+
+
 .feedback .title::after {
      width: 52%;
 }
 
 .about {
-    height: 148vh;
+    height: 1046px;
 }
 
 #footer .fs-5 {
@@ -1879,13 +2023,18 @@ content: "";
  
 
 @media (max-width: 375px){
+
+#home{
+    height: 1020px;
+}
+
 #content {
-    height: 84vh;
+    height: 840px;
 }
 
 
 .about {
-    height: 164vh;
+    height: 1000px;
 }
 
 #services {
@@ -1897,6 +2046,10 @@ content: "";
 }
 
 
+#My_Projects{
+    height: 1800px;
+}
+
 #My_Projects .mobile-tablet-view .carouselExampleDarkw .carousel-item{
     height: 40% !important;
 }
@@ -1907,15 +2060,22 @@ content: "";
 
 @media (max-width: 360px){
 
-  
+    #home {
+        height: 1070px;
+    }
+
+    .navbar {
+        height: 80px !important;
+    }
 
     img.logo {
-    width: 12vw;
+    width: 50px;
+    height: 50px;
 }
 
 
 #content {
-        height: 72vh;
+        height: 720px;
 }
 
     .monis-pic-height {
@@ -1973,19 +2133,19 @@ content: "";
 @media (max-width: 320px){
 
 #home {
-    height: 180vh;
+    height: 920px;
 }
 
 #content {
-    height: 104vh;
+    height: 492px;
 }
 
 .M-logo-container {
-    height: 68vh;
+    height: 310px;
 }
 
 .about {
-    height: 214vh;
+    height: 1030px;
 }
 
 #services {
@@ -1998,12 +2158,12 @@ content: "";
 }
 
 #feedback {
-     height: 126vh;
+     height: 660px;
 }
 
 
 #My_Projects {
-    height: 290vh;
+    height: 1600px;
 }
 
 .responsive-card {
@@ -2012,19 +2172,22 @@ content: "";
 }
 
 #My_Projects #carouselExampleDarkw .card-animation{
-     height: 60vh !important;
+     height: 410px !important;
 }
 
 
 #My_Projects #carouselExampleDarkw .card-animation-2{
-    height: 60vh !important;
+    height: 410px !important;
 }
 
 
 #My_Projects #carouselExampleDarkw .card-animation-3{
-    height: 60vh !important;
+    height: 410px !important;
 }
 
+#My_Projects #carouselExampleDarkw .card-animation-4{
+    height: 410px !important;
+}
 
 #My_Projects #carouselExampleDarkw .carousel-item{
     height: 38% !important;
@@ -2039,7 +2202,7 @@ content: "";
 }
 
 #contact {
-    height: 215vh;
+    height: 1150px;
 }
 
 
